@@ -1,0 +1,86 @@
+{
+  "appinspect": "not run",
+  "checks": [
+    {
+      "check": "unique dataset identifiers",
+      "status": "passed"
+    },
+    {
+      "check": "root BaseEvent",
+      "status": "passed"
+    },
+    {
+      "check": "all children inherit Auditd",
+      "status": "passed"
+    },
+    {
+      "check": "all REPORT references resolve",
+      "status": "passed"
+    },
+    {
+      "check": "audit fields use direct named captures without FORMAT",
+      "status": "passed"
+    },
+    {
+      "check": "no local environment files",
+      "status": "passed"
+    },
+    {
+      "check": "no raw or secret model fields",
+      "status": "passed"
+    },
+    {
+      "check": "optional sample validation",
+      "status": "not run; samples not supplied"
+    },
+    {
+      "check": "optional rule/type mapping comparison",
+      "status": "not run; mapping not supplied"
+    },
+    {
+      "check": "all rules have explicit disposition",
+      "status": "passed"
+    },
+    {
+      "check": "candidate hashes match inventory",
+      "status": "passed"
+    },
+    {
+      "check": "no scheduled rules shipped in model app",
+      "status": "passed"
+    },
+    {
+      "check": "acceleration disabled",
+      "status": "passed"
+    },
+    {
+      "check": "model contract hash",
+      "status": "passed"
+    },
+    {
+      "check": "TA contract hash",
+      "status": "passed"
+    },
+    {
+      "check": "archive checksum Splunk_TA_nix.tgz",
+      "status": "passed"
+    },
+    {
+      "check": "safe archive matches complete app tree Splunk_TA_nix.tgz",
+      "status": "passed"
+    },
+    {
+      "check": "archive checksum SA_index_exile_auditd.tgz",
+      "status": "passed"
+    },
+    {
+      "check": "safe archive matches complete app tree SA_index_exile_auditd.tgz",
+      "status": "passed"
+    }
+  ],
+  "failed": 0,
+  "passed": 17,
+  "performance": "unverified",
+  "runtime": "not executed; no live evidence collected",
+  "scope": "offline configuration and archive checks; not Splunk execution"
+}

@@ -6,5 +6,5 @@
   "max_execve_args": 64,
   "additional_types": [],
   "additional_fields": {},
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

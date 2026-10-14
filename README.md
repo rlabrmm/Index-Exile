@@ -2,6 +2,8 @@
 
 Portable, record-oriented Splunk data model, locally extended Linux TA, and reusable maintenance skills. All rule conversions are review candidates. No detection has been replaced or enabled, and acceleration is initially disabled.
 
+Current extension: **1.0.1**. See [auditd extraction fix](docs/RELEASE-1.0.1.md) for the literal `$1$2$3` correction and verification steps.
+
 ## Deliverables
 
 - `build/apps/Splunk_TA_nix`: complete modified TA, retaining the vendor identity and unrelated behavior. `local/` and local metadata are excluded.

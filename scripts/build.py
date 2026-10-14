@@ -368,10 +368,17 @@ def generate_ta(policy, model):
     for f in sorted(rawfields):
         rawkey = re.escape(f).replace('_','[-_]')
         # Boundaries support nested msg='key=value ...' without capturing the wrapper.
-        regex = r'''(?:^|[\s'])''' + rawkey + r'''=(?:"([^"\r\n]*)"|'([^'\r\n]*)'|([^\s'"\r\n]+))'''
-        name = 'ix_auditd_field_' + f
-        transforms += transform(name, regex, f'{f}::$1$2$3')
-        reports.append(name)
+        # Search-time FORMAT cannot concatenate $1$2$3. Each quoting form
+        # extracts the field directly through one named capture instead.
+        for suffix, value in (
+            ('double', rf'"(?P<{f}>[^"\r\n]*)"'),
+            ('single', rf"'(?P<{f}>[^'\r\n]*)'"),
+            ('bare', rf'''(?P<{f}>[^\s'"\r\n]+)'''),
+        ):
+            regex = r'''(?:^|[\s'])''' + rawkey + '=' + value
+            name = 'ix_auditd_field_' + f + '_' + suffix
+            transforms += transform(name, regex)
+            reports.append(name)
     transforms += transform('ix_auditd_proctitle', r'(?:^|\s)proctitle=(?P<ix_proctitle_raw>[^\r\n]+?)\s*$')
     reports += ['ix_auditd_proctitle']
     for i in range(policy['max_execve_args']):

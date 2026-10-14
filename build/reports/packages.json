@@ -1,10 +1,10 @@
 [
   {
     "file": "Splunk_TA_nix.tgz",
-    "sha256": "not committed; rebuild locally"
+    "sha256": "42d8f135a40b6d2c3e115441a33f88a41d0895f24eb58e4fba732be70a893c4e"
   },
   {
     "file": "SA_index_exile_auditd.tgz",
-    "sha256": "not committed; rebuild locally"
+    "sha256": "8367be72e71952a9ca8ce699f202828dc4079b3493b65e9b379260c47dc9182f"
   }
 ]

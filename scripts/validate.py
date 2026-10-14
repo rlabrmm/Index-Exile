@@ -20,6 +20,9 @@ def validate(root):
     ta=root/'apps/Splunk_TA_nix'
     props=conf(ta/'default/props.conf')['auditd']; transforms=conf(ta/'default/transforms.conf')
     check('all REPORT references resolve',all(x.strip() in transforms for x in props['REPORT-ix_auditd'].split(',')))
+    field_transforms=[v for k,v in transforms.items() if k.startswith('ix_auditd_field_')]
+    check('audit fields use direct named captures without FORMAT',bool(field_transforms) and all(
+        'FORMAT' not in v and len(re.compile(v['REGEX']).groupindex)==1 for v in field_transforms))
     check('no local environment files',not any(p.is_file() and ('local' in p.relative_to(root/'apps').parts or p.name=='local.meta') for p in (root/'apps').rglob('*')))
     check('no raw or secret model fields',not any(f['fieldName'] in {'_raw','password','data'} for o in objects for f in o['fields']))
     summary=json.loads((root/'reports/inventory_summary.json').read_text())

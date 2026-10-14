@@ -16,7 +16,10 @@
     "removed": []
   },
   "source_config_inventory.json": {
-    "status": "prior configuration detail unavailable; use file hashes and rule changes"
+    "added": [],
+    "changed": [],
+    "removed": [],
+    "status": "Release inventory excludes 160 legacy local-setting hashes; portable default source settings are unchanged."
   },
   "type_inventory.json": {
     "added": [],

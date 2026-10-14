@@ -22,7 +22,10 @@ def extract(raw, transforms):
             continue
         if 'FORMAT' in settings:
             key,value=settings['FORMAT'].split('::',1)
-            value=re.sub(r'\$(\d+)',lambda x:m[int(x[1])] or '',value)
+            # Search-time FORMAT substitutes a single capture, not concatenation.
+            capture=re.fullmatch(r'\$(\d+)',value)
+            if capture:
+                value=m[int(capture[1])] or ''
             if value:
                 fields.setdefault(key,value)
         else:
@@ -32,6 +35,26 @@ def extract(raw, transforms):
     return fields
 
 class PipelineTests(unittest.TestCase):
+    def test_search_time_format_does_not_concatenate(self):
+        settings={'ix_auditd_legacy':{'REGEX':r'uid=(\w+)', 'FORMAT':'uid::$1$2$3'}}
+        self.assertEqual(extract('uid=root',settings)['uid'],'$1$2$3')
+        settings['ix_auditd_legacy']['FORMAT']='uid::$1'
+        self.assertEqual(extract('uid=root',settings)['uid'],'root')
+
+    def test_generated_fields_use_named_captures(self):
+        for name,settings in self.transforms.items():
+            if name.startswith('ix_auditd_field_'):
+                self.assertNotIn('FORMAT',settings,name)
+                self.assertEqual(len(re.compile(settings['REGEX']).groupindex),1,name)
+
+    def test_quoted_bare_empty_and_literal_dollar_values(self):
+        for value,expected in [('root','root'), ('"test user"','test user'),
+                               ("'test user'",'test user'), ('""',''), ("''",''),
+                               ('"$HOME"','$HOME'), ('"$1$2$3"','$1$2$3')]:
+            raw=f'type=USER_AUTH msg=audit(1700000000:1): acct={value} uid=0'
+            self.assertEqual(extract(raw,self.transforms)['acct'],expected)
+        self.assertNotIn('acct',extract('type=USER_AUTH msg=audit(1700000000:1): uid=0',self.transforms))
+
     @classmethod
     def setUpClass(cls):
         cls.build=ROOT/'build'

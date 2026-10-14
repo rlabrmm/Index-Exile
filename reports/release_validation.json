@@ -1,0 +1,11 @@
+{
+  "extension_version": "1.0.1",
+  "unittest": "27 tests passed in Dev and release checkout",
+  "regression_red_baseline": "5 tests failed against prior generated TA",
+  "structural_archive_checks_passed": 17,
+  "reproducible_packages": true,
+  "model_schema": "unchanged; 43 type datasets plus root and Unmapped",
+  "private_sample_report": "reports/auditd_extraction_regression.json",
+  "runtime": "not executed; no live evidence collected",
+  "appinspect": "not run"
+}
