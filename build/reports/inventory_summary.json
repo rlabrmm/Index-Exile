@@ -1,0 +1,21 @@
+{
+  "anomalies": [],
+  "candidate_count": 46,
+  "csv_only_titles": [],
+  "live_validation": "not executed; no live evidence collected",
+  "manual_rule_count": 14,
+  "mapped_csv_rules": 0,
+  "model_type_datasets": 43,
+  "observed_types": 0,
+  "root_and_unmapped": 2,
+  "sample_records": 0,
+  "sample_validation": "not run; optional samples not supplied",
+  "selected_rules": 60,
+  "server_release": "unknown",
+  "source_stanzas": {
+    "DA-ESS-ContentUpdate": 2236,
+    "SplunkEnterpriseSecuritySuite": 81
+  },
+  "ta_predicate_types": [],
+  "type_map_validation": "not run; optional mapping not supplied"
+}

@@ -1,0 +1,26 @@
+# Private source exports and supplied environment configuration
+/artifacts/
+/skill-files/
+/Test/
+/AI-files/
+# Packages and private intermediate builds are reproducible, not versioned
+**/dist/
+/build-next/
+/build-repro/
+/build-verify/
+/build-csv-free/
+/build-update-final/
+/private-inputs/
+/private-updates/
+/private-build/
+/private/
+**/__pycache__/
+**/.pytest_cache/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+*.pem
+*.key
+*.log

@@ -1,0 +1,627 @@
+[
+  {
+    "anomaly": false,
+    "dataset": "ADD_USER",
+    "evidence": "source_predicate_unvalidated",
+    "raw_field_names": [],
+    "retained_fields": [],
+    "rule_ids": [
+      "bf04dfe5b0527b02"
+    ],
+    "sample_count": 0,
+    "type": "ADD_USER"
+  },
+  {
+    "anomaly": false,
+    "dataset": "ANOM_PROMISCUOUS",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "dev",
+      "old_prom",
+      "prom"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "ANOM_PROMISCUOUS"
+  },
+  {
+    "anomaly": false,
+    "dataset": "AVC",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "capability",
+      "permissive",
+      "scontext",
+      "tclass",
+      "tcontext"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "AVC"
+  },
+  {
+    "anomaly": false,
+    "dataset": "BPF",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "BPF"
+  },
+  {
+    "anomaly": false,
+    "dataset": "BPRM_FCAPS",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "fe",
+      "fi",
+      "fp",
+      "frootid",
+      "fver",
+      "old_pa",
+      "old_pe",
+      "old_pi",
+      "old_pp",
+      "pa",
+      "pe",
+      "pi",
+      "pp"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "BPRM_FCAPS"
+  },
+  {
+    "anomaly": false,
+    "dataset": "CONFIG_CHANGE",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "new_enabled",
+      "new_log_passwd",
+      "old_enabled",
+      "old_log_passwd"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "CONFIG_CHANGE"
+  },
+  {
+    "anomaly": false,
+    "dataset": "CRED_ACQ",
+    "evidence": "source_predicate_unvalidated",
+    "raw_field_names": [],
+    "retained_fields": [],
+    "rule_ids": [
+      "931e563bb43e07e0"
+    ],
+    "sample_count": 0,
+    "type": "CRED_ACQ"
+  },
+  {
+    "anomaly": false,
+    "dataset": "CRED_DISP",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "CRED_DISP"
+  },
+  {
+    "anomaly": false,
+    "dataset": "CRED_REFR",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "grantors"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "CRED_REFR"
+  },
+  {
+    "anomaly": false,
+    "dataset": "CRYPTO_KEY_USER",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "direction",
+      "fp",
+      "kind",
+      "spid"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "CRYPTO_KEY_USER"
+  },
+  {
+    "anomaly": false,
+    "dataset": "CRYPTO_SESSION",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "cipher",
+      "direction",
+      "ksize",
+      "laddr",
+      "lport",
+      "rport",
+      "spid"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "CRYPTO_SESSION"
+  },
+  {
+    "anomaly": false,
+    "dataset": "CWD",
+    "evidence": "source_predicate_unvalidated",
+    "raw_field_names": [],
+    "retained_fields": [],
+    "rule_ids": [
+      "9df414c3340d8875",
+      "b27afd124e94c211",
+      "041d5422af8e4405",
+      "f74d2b6ebc2d6b39",
+      "fef8fce50ef1b08a",
+      "aa32013913e7bfa4",
+      "e659b385a9dc68f6"
+    ],
+    "sample_count": 0,
+    "type": "CWD"
+  },
+  {
+    "anomaly": false,
+    "dataset": "DAEMON_ABORT",
+    "evidence": "source_predicate_unvalidated",
+    "raw_field_names": [],
+    "retained_fields": [],
+    "rule_ids": [
+      "5ab79bfe81cb4b42"
+    ],
+    "sample_count": 0,
+    "type": "DAEMON_ABORT"
+  },
+  {
+    "anomaly": false,
+    "dataset": "DAEMON_CONFIG",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "state"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "DAEMON_CONFIG"
+  },
+  {
+    "anomaly": false,
+    "dataset": "DAEMON_END",
+    "evidence": "source_predicate_unvalidated",
+    "raw_field_names": [],
+    "retained_fields": [],
+    "rule_ids": [
+      "2ea9f4cda202e696"
+    ],
+    "sample_count": 0,
+    "type": "DAEMON_END"
+  },
+  {
+    "anomaly": false,
+    "dataset": "DAEMON_START",
+    "evidence": "source_predicate_unvalidated",
+    "raw_field_names": [],
+    "retained_fields": [],
+    "rule_ids": [
+      "98695d56efd2974c"
+    ],
+    "sample_count": 0,
+    "type": "DAEMON_START"
+  },
+  {
+    "anomaly": false,
+    "dataset": "EXECVE",
+    "evidence": "source_predicate_unvalidated",
+    "raw_field_names": [],
+    "retained_fields": [],
+    "rule_ids": [
+      "9c3ec1d274b84461",
+      "07deee3692657ba4",
+      "963bc73a770308d4",
+      "8c0b062cc0182b21",
+      "00114a8ed4396300",
+      "476adb92196445e1",
+      "ae93b8374c8846ac",
+      "a1550f9733b9d9e2",
+      "48c868fbd8b4fa24",
+      "30621a00e695e14c",
+      "2e3bee7f292287b3",
+      "dbd62e059abcf6ed",
+      "c91f008537fb09dd",
+      "eb66c14834d6789f"
+    ],
+    "sample_count": 0,
+    "type": "EXECVE"
+  },
+  {
+    "anomaly": false,
+    "dataset": "FD_PAIR",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "fd0",
+      "fd1"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "FD_PAIR"
+  },
+  {
+    "anomaly": false,
+    "dataset": "IPC",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "mode",
+      "ogid",
+      "ouid"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "IPC"
+  },
+  {
+    "anomaly": false,
+    "dataset": "IPC_SET_PERM",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "mode",
+      "ogid",
+      "ouid",
+      "qbytes"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "IPC_SET_PERM"
+  },
+  {
+    "anomaly": false,
+    "dataset": "LOGIN",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "LOGIN"
+  },
+  {
+    "anomaly": false,
+    "dataset": "MMAP",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "fd",
+      "flags"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "MMAP"
+  },
+  {
+    "anomaly": false,
+    "dataset": "NETFILTER_CFG",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "entries",
+      "family",
+      "table"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "NETFILTER_CFG"
+  },
+  {
+    "anomaly": false,
+    "dataset": "OBJ_PID",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "oauid",
+      "obj",
+      "ocomm",
+      "opid",
+      "oses",
+      "ouid"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "OBJ_PID"
+  },
+  {
+    "anomaly": false,
+    "dataset": "OPENAT2",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "mode",
+      "oflag",
+      "resolve"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "OPENAT2"
+  },
+  {
+    "anomaly": false,
+    "dataset": "PATH",
+    "evidence": "source_predicate_unvalidated",
+    "raw_field_names": [],
+    "retained_fields": [
+      "cap_fe",
+      "cap_fi",
+      "cap_fp",
+      "cap_frootid",
+      "cap_fver",
+      "dev",
+      "inode",
+      "item",
+      "mode",
+      "obj",
+      "ogid",
+      "ouid",
+      "rdev"
+    ],
+    "rule_ids": [
+      "9df414c3340d8875",
+      "b27afd124e94c211",
+      "041d5422af8e4405",
+      "f74d2b6ebc2d6b39",
+      "fef8fce50ef1b08a",
+      "aa32013913e7bfa4",
+      "e659b385a9dc68f6"
+    ],
+    "sample_count": 0,
+    "type": "PATH"
+  },
+  {
+    "anomaly": false,
+    "dataset": "PROCTITLE",
+    "evidence": "source_predicate_unvalidated",
+    "raw_field_names": [],
+    "retained_fields": [],
+    "rule_ids": [
+      "aa5b7311a90e08f5",
+      "ce219846bdbc8ecc",
+      "30bac6e793858c5a",
+      "d507748fbd415ad4",
+      "da7f5323aa47f5dc",
+      "7b274b991cf72b74",
+      "924a4864316b54fe",
+      "7d977fcbee46d6ea",
+      "c2f1866689dc655d",
+      "70762565b7e156fb",
+      "e49d31a342bfb57a",
+      "43e50966a4139ed7",
+      "93205fa2ffdb48d4",
+      "00704354ea74f2de",
+      "776750b426ebce3b"
+    ],
+    "sample_count": 0,
+    "type": "PROCTITLE"
+  },
+  {
+    "anomaly": false,
+    "dataset": "SECCOMP",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "code",
+      "compat",
+      "ip",
+      "sig"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "SECCOMP"
+  },
+  {
+    "anomaly": false,
+    "dataset": "SERVICE_START",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "SERVICE_START"
+  },
+  {
+    "anomaly": false,
+    "dataset": "SERVICE_STOP",
+    "evidence": "source_predicate_unvalidated",
+    "raw_field_names": [],
+    "retained_fields": [],
+    "rule_ids": [
+      "323ee30cb156e507",
+      "f4804e5936948ed2",
+      "35e21a04f4b8d7cc",
+      "5daa54b3bf0e0d1a",
+      "1bf76380217501bf"
+    ],
+    "sample_count": 0,
+    "type": "SERVICE_STOP"
+  },
+  {
+    "anomaly": false,
+    "dataset": "SOCKADDR",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "fam",
+      "saddr"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "SOCKADDR"
+  },
+  {
+    "anomaly": false,
+    "dataset": "SOCKETCALL",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "nargs"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "SOCKETCALL"
+  },
+  {
+    "anomaly": false,
+    "dataset": "SYSCALL",
+    "evidence": "source_predicate_unvalidated",
+    "raw_field_names": [],
+    "retained_fields": [
+      "items"
+    ],
+    "rule_ids": [
+      "04cd37e1c5665d9d",
+      "0492f87023aabd98",
+      "1ab1e05d4e93eb3f",
+      "ca0ebd61b2c94e68",
+      "a7df98b44c57299c",
+      "94204d65e6837444",
+      "05fd9b7e7b63b18e",
+      "1ac55402770514c2",
+      "bb85c3dccdf97300",
+      "dcd02adb09b10b0a",
+      "327c0f21205b22b8",
+      "931e563bb43e07e0",
+      "fe045377e2702a26",
+      "c8f200650f06f18e"
+    ],
+    "sample_count": 0,
+    "type": "SYSCALL"
+  },
+  {
+    "anomaly": true,
+    "dataset": "SYSCSYSCALL",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "items"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "SYSCSYSCALL"
+  },
+  {
+    "anomaly": false,
+    "dataset": "TTY",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "major",
+      "minor"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "TTY"
+  },
+  {
+    "anomaly": true,
+    "dataset": "UNKNOWN_1333",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "new",
+      "old"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "UNKNOWN[1333]"
+  },
+  {
+    "anomaly": false,
+    "dataset": "USER_ACCT",
+    "evidence": "source_predicate_unvalidated",
+    "raw_field_names": [],
+    "retained_fields": [],
+    "rule_ids": [
+      "931e563bb43e07e0"
+    ],
+    "sample_count": 0,
+    "type": "USER_ACCT"
+  },
+  {
+    "anomaly": false,
+    "dataset": "USER_AUTH",
+    "evidence": "source_predicate_unvalidated",
+    "raw_field_names": [],
+    "retained_fields": [],
+    "rule_ids": [
+      "931e563bb43e07e0"
+    ],
+    "sample_count": 0,
+    "type": "USER_AUTH"
+  },
+  {
+    "anomaly": false,
+    "dataset": "USER_CMD",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "USER_CMD"
+  },
+  {
+    "anomaly": false,
+    "dataset": "USER_END",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "USER_END"
+  },
+  {
+    "anomaly": false,
+    "dataset": "USER_LOGIN",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "USER_LOGIN"
+  },
+  {
+    "anomaly": false,
+    "dataset": "USER_ROLE_CHANGE",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [
+      "default_context",
+      "selected_context"
+    ],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "USER_ROLE_CHANGE"
+  },
+  {
+    "anomaly": false,
+    "dataset": "USER_START",
+    "evidence": "retained_catalog_unvalidated_current_input",
+    "raw_field_names": [],
+    "retained_fields": [],
+    "rule_ids": [],
+    "sample_count": 0,
+    "type": "USER_START"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "approvals": "All approvals must be revalidated against current source, candidate, model and runtime evidence.",
+  "field_inventory.json": {
+    "added": [],
+    "changed": [],
+    "removed": []
+  },
+  "input_manifest.json": {
+    "added": [],
+    "changed": [],
+    "removed": []
+  },
+  "rule_inventory.json": {
+    "added": [],
+    "changed": [],
+    "removed": []
+  },
+  "source_config_inventory.json": {
+    "status": "prior configuration detail unavailable; use file hashes and rule changes"
+  },
+  "type_inventory.json": {
+    "added": [],
+    "changed": [],
+    "removed": []
+  }
+}

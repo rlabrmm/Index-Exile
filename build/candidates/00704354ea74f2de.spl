@@ -1,0 +1,5 @@
+| tstats summariesonly=false allow_old_summaries=false count min(_time) as firstTime max(_time) as lastTime FROM datamodel=Linux_Auditd.Auditd WHERE (index=linux) AND (Auditd.proctitle IN ("*chmod *")  AND Auditd.proctitle IN ("* u+s *", "* g+s *", "* 4777 *", "* 4577 *")) BY Auditd.proctitle Auditd.host
+| rename Auditd.proctitle AS proctitle Auditd.host AS dest
+| `security_content_ctime(firstTime)`
+| `security_content_ctime(lastTime)`
+| `linux_auditd_setuid_using_chmod_utility_filter`

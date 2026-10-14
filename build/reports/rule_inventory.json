@@ -1,0 +1,1569 @@
+[
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "132b393be52ae752000ea69ae19864ad0c98b33fcc330d40b9bab570e4bbb2bb",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "bb399a494b7f672359491a1585fb26fd96d730325f03dbbd925aa64d117c283a",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "EXECVE"
+    ],
+    "id": "9c3ec1d274b84461",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_hidden_files_and_directories_creation_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "cc17e7314dc20cb9a3beb18e845ef6681c8bbb12135ca3dabd50a65b26dc7129",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Hidden Files And Directories Creation - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": null,
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "4d968c6e506461d15cf47db55e01e409a75db11d002d4cd259ef4d5250b3011d",
+    "disabled": "True",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "PROCTITLE"
+    ],
+    "id": "aa5b7311a90e08f5",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_file_permission_modification_via_chmod_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Parameterized search or additional source macro requires explicit review.",
+    "schedule": "0 * * * *",
+    "search_sha256": "70b74f17073a7acae573a0716d160eb17c740e944bf04c430f36e57a2ed0129a",
+    "status": "manual_conversion_required",
+    "title": "ESCU - Linux Auditd File Permission Modification Via Chmod - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "a4c588c637a42f1c9150156d7af3b764272b7e5ac0966bb3af5697a0fdd70700",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "4a7aaa8272331a8a9ef6228d654c95797565f5ff934d38c1abee5eae4584eaca",
+    "disabled": "0",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "EXECVE"
+    ],
+    "id": "07deee3692657ba4",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_data_transfer_size_limits_via_split_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "a892e044cd82626763e8c3817f4bad5cdd334f27b2a7a649a6e37324c83ad04d",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Data Transfer Size Limits Via Split - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "ff0ccdbcb6681447639fb9f204c80905138b9603e77ca5662a31c9edc1f6c7b2",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "7f30ed4a4c3ddd7db54b607a2d55817278aa410341845412632517acd18bed9e",
+    "disabled": "0",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "SYSCALL"
+    ],
+    "hint_types": [],
+    "id": "04cd37e1c5665d9d",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_data_transfer_size_limits_via_split_syscall_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "851ac5aa1d772b07ea75679015c6a3f71bf5bdc1d8dd1985a527237ee828615e",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Data Transfer Size Limits Via Split Syscall - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "32b678958cdcd7fe09185403bcec139324c20fa1a02fed200df40ca3b6800bb7",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "3bb21884a31ba827ee02a636b91c50d1b846cf8094b436af915c1cc2f410d604",
+    "disabled": "0",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "SYSCALL"
+    ],
+    "hint_types": [],
+    "id": "0492f87023aabd98",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_insert_kernel_module_using_insmod_utility_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "6428c14411cca6bf4fe518e32cf8e5e9b504bd09694ef8583c097391e1aba936",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Insert Kernel Module Using Insmod Utility - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "91b485f984e2a7b5f7b75cf5f8425b69958c7be4510291887cb0c3491ed3ab7a",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "75068f1827f6e1afb6cfcbd4fef228d0a5290a3dcc9ca941d778c06e384ad503",
+    "disabled": "0",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "SYSCALL"
+    ],
+    "hint_types": [],
+    "id": "1ab1e05d4e93eb3f",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_install_kernel_module_using_modprobe_utility_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "906e724d2312b7298df4ff0d589829763196d5b1214ad606a1d4d05da41a64de",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Install Kernel Module Using Modprobe Utility - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "e21773018d938564b5a713045f174917053f2ea440f823450bf99d9187450df8",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "e9212cfade58f55c212d6033e2843f1512bde33b9ee33257a01028552fd8dac7",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "SYSCALL"
+    ],
+    "hint_types": [],
+    "id": "ca0ebd61b2c94e68",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_whoami_user_discovery_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "0533adbd556a815b79b6cf9d8b1eb5fe984d770fb4f24fbe6d667b7fcd17266a",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Whoami User Discovery - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "c367782a34dbe9ee0b2c6821290571452611bd32f827a6a49e5459871e2bbaef",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "1e16a4a4f01e0717763beaf6eec206c42eebfba5b7569167520ae4acb2702720",
+    "disabled": "0",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "SYSCALL"
+    ],
+    "hint_types": [],
+    "id": "a7df98b44c57299c",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_kernel_module_using_rmmod_utility_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "24a40954d928975818f061bc10465b489c5fc7d8a4d2db20963994e5f9b7820a",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Kernel Module Using Rmmod Utility - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "2a1a867d4661539692f2348cbfcd55c05689b4f2f43d6f0a7e26a83378a612b7",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "be18a3a7c685b0c1646a532b3bb2dc408ecf817d19da39548d21577e5cd2b86b",
+    "disabled": "False",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "SERVICE_STOP"
+    ],
+    "hint_types": [],
+    "id": "323ee30cb156e507",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_disable_or_modify_system_firewall_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "775c4725fd5772aefe3d6de41929b2f3f4bbc092f54c901e76dc65154348b5e9",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Disable Or Modify System Firewall - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "3726b6eedcd99bdf2f97149cf7cb7036f67180681c03a98e0997ef88ba5d239b",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "a1fc26c789d6b5933f727143e223d8d3e0c2ad1a345129c6fa25af1e8ad33695",
+    "disabled": "False",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "PROCTITLE"
+    ],
+    "id": "ce219846bdbc8ecc",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_change_file_owner_to_root_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "9e8af93edf229291c0c75581f3fb513a7a6f671db4167aa293f08ae92d6b5d54",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Change File Owner To Root - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "8b2281c00aec3d85d7211b0fd67e754356afab2d6e5cf01038d92137dcb7f108",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "28251593d9a12577a6d77c5dba09b3ead664611e0d29a531eb728be167fcfd93",
+    "disabled": "False",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "ADD_USER"
+    ],
+    "hint_types": [],
+    "id": "bf04dfe5b0527b02",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_add_user_account_type_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "806517129e584877518a640e6d3da5cdcbbda65f947534a6ebb17dc87dd74f1c",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Add User Account Type - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": null,
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "cb1ac886cee6ba38fd2935c10987daed8b26beecc636474e223cd54591125301",
+    "disabled": "0",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "SYSCALL"
+    ],
+    "hint_types": [],
+    "id": "94204d65e6837444",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_copy_fail_privilege_escalation_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Pre-aggregation eval/rex/bin, joins, correlation, or unsupported aggregation requires manual conversion.",
+    "schedule": "0 * * * *",
+    "search_sha256": "cc402f1f1682b9407127ea682ab25bf01732c9d2df61299a04d49e79b035d04f",
+    "status": "manual_conversion_required",
+    "title": "ESCU - Linux Auditd Copy Fail Privilege Escalation - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "9af33113227f06c3c5576e4748bf32cb8dd1ba12f2a622b0b5f472d5eecc4696",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "0ca237bfb09dba3bfa4f82b7d9608652f83ec30059701ad1e95ce270b4d93ead",
+    "disabled": "0",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "PROCTITLE"
+    ],
+    "id": "30bac6e793858c5a",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_data_destruction_command_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "c5f705e4227d9b7a4f861dc4dd08319d2d378ea8fc13668dbb0afb1b056f4d2f",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Data Destruction Command - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "67981ca14299ccadc03cee3b5260d101ed214fa82ecbd6c151879953707255cf",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "5990b93a0857f7336942a2f435f9159ddbfcf4a89a30f1b828645f3122d34b50",
+    "disabled": "0",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "PROCTITLE"
+    ],
+    "id": "d507748fbd415ad4",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_dd_file_overwrite_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "fceff1c0664e148d9f4a297b7d92d95eb90ff1abadaaf202e17efb7b9b502069",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Dd File Overwrite - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": null,
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "ffbf18697f223da4bb20d92e2eb0e339ba70a6743e75104d2d231e20e4582e23",
+    "disabled": "0",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "CWD",
+      "PATH"
+    ],
+    "hint_types": [],
+    "id": "9df414c3340d8875",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_doas_conf_file_creation_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Pre-aggregation eval/rex/bin, joins, correlation, or unsupported aggregation requires manual conversion.",
+    "schedule": "0 * * * *",
+    "search_sha256": "7d9a3ac0604f7d560bd2725e1d361564b4884223996b97b0ed729c7aceb04cd9",
+    "status": "manual_conversion_required",
+    "title": "ESCU - Linux Auditd Doas Conf File Creation - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "988f441cffb1a27be78658abb22917bf25077f1c8040c59967f522c20b2567c6",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "d38b63a33a70b37fd9930a5c08d8420e678cd05ab0e17a554a56b5b44aaf5ac9",
+    "disabled": "0",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "EXECVE"
+    ],
+    "id": "963bc73a770308d4",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_find_credentials_from_password_managers_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "cb1b73101c7689ba2a3519733c90365e2349a6e43a4dbba0ac15dde8fd61b67d",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Find Credentials From Password Managers - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "91bb189b1ae4bfaf5e6b93540a84fe9cd915f685967c7457127fd10673f29e47",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "4cd4df69bac04cc50ded7e229a8e2be18d7eddd27df636bc7002568be34e18a4",
+    "disabled": "0",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "EXECVE"
+    ],
+    "id": "8c0b062cc0182b21",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_find_credentials_from_password_stores_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "223af58174ba46e0011a7f7c7cf2831ff5fa2d547b609faf70702ccc0cdf22a3",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Find Credentials From Password Stores - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "cc0b2da0e6fd903991c71d7dd3775198cc28be1242628a323d3905223d03c6d6",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "93dbf7b35b3aad1c941017ce499c0e912d2666d48ac12f64defbf7151e6e79b3",
+    "disabled": "0",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "EXECVE"
+    ],
+    "id": "00114a8ed4396300",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_preload_hijack_library_calls_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "c566beb631a4150bb388081f1937960cbe0f10568833dc74fd1b61eea531a795",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Preload Hijack Library Calls - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": null,
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "a8850300cbbdbfc02d897bb4208ce71ea1ea660167f7e9f82adcd72b54335a7f",
+    "disabled": "0",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "CWD",
+      "PATH"
+    ],
+    "hint_types": [],
+    "id": "b27afd124e94c211",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_preload_hijack_via_preload_file_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Pre-aggregation eval/rex/bin, joins, correlation, or unsupported aggregation requires manual conversion.",
+    "schedule": "0 * * * *",
+    "search_sha256": "d9975079700d68032d08d816eb36a3decd8d8214db54b2643043ba3022619f4a",
+    "status": "manual_conversion_required",
+    "title": "ESCU - Linux Auditd Preload Hijack Via Preload File - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "1e5444b27f6628f0a3e2974a7926ef031257cf45d12c42869ac71f47ad124d3f",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "1163106e3d9b87d1ed3d091226d9092f413d0feec11ae47736924995c5f80cc2",
+    "disabled": "0",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "EXECVE"
+    ],
+    "id": "476adb92196445e1",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_setuid_using_setcap_utility_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "fdae09dbf6ca98d5dfdbd3198c654c47f667a3c5ee857fe5da58142818602b98",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Setuid Using Setcap Utility - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "d8d8e7e8333e945f70fcc303f512074c15b270eff4ae7d3b2a98f6c1bbc3f9a4",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "6850828b4ed0e0d066fed7d6847cbb7e2dd5c3241a20631947be2c7adc65adaa",
+    "disabled": "0",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "PROCTITLE"
+    ],
+    "id": "da7f5323aa47f5dc",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_shred_overwrite_command_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "c3283154b2b9dc5e2a77da777a544471418b297044a50923fa0dbdb02cd1f6f0",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Shred Overwrite Command - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": null,
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "88cfcd62c1ff074618372cb1640c5c333bb38479bba4cf159454b025b1d57e47",
+    "disabled": "0",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "CWD",
+      "PATH"
+    ],
+    "hint_types": [],
+    "id": "041d5422af8e4405",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_unix_shell_configuration_modification_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Pre-aggregation eval/rex/bin, joins, correlation, or unsupported aggregation requires manual conversion.",
+    "schedule": "0 * * * *",
+    "search_sha256": "8990f66a5800e5eaaacd84ed20bd7d20b4bfcfa12fb4c0e4adabef01fde7def1",
+    "status": "manual_conversion_required",
+    "title": "ESCU - Linux Auditd Unix Shell Configuration Modification - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "26773e2110516a3b958211e9cd0e4f971d4b3caf442de07b03738c3127e5bd6c",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "b7bc3213f5d34854ec7d1b4ac9502040e4d633cea8e4c707577e8dc0e075baf6",
+    "disabled": "0",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "EXECVE"
+    ],
+    "id": "ae93b8374c8846ac",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_unload_module_via_modprobe_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "ac49f137e7403619e65dfcdfb8313a157c1b8d10f3f932195be25b22807a1545",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Unload Module Via Modprobe - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": null,
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "8b9eabfb4dfec967bc32934e26ac4d0e469dd11e12fcb6d8ff705c67b4a3a7a6",
+    "disabled": "0",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "CWD",
+      "PATH"
+    ],
+    "hint_types": [],
+    "id": "f74d2b6ebc2d6b39",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_magic_sysrq_key_abuse_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Pre-aggregation eval/rex/bin, joins, correlation, or unsupported aggregation requires manual conversion.",
+    "schedule": "0 * * * *",
+    "search_sha256": "32ef9fcd356a77210323abb1cf499580cc825b54e05e4985981c046a8053915d",
+    "status": "manual_conversion_required",
+    "title": "ESCU - Linux Magic SysRq Key Abuse - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": null,
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "82f89c3ebbcd713c30816cf8b919b03c687bc63c0401ed2940dbde94650dc47d",
+    "disabled": "0",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "SYSCALL"
+    ],
+    "hint_types": [],
+    "id": "05fd9b7e7b63b18e",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_suspicious_namespace_creation_filter",
+      "security_content_ctime",
+      "sysmon"
+    ],
+    "missing_macros": [],
+    "reason": "Source is not exclusively the linux_auditd macro; cross-source/manual review required.",
+    "schedule": "0 * * * *",
+    "search_sha256": "3aef893edc8681626a87a3a38cb4b0cb486969fee7485392c4c8a994684ee989",
+    "status": "manual_conversion_required",
+    "title": "ESCU - Linux Suspicious Namespace Creation - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "645e8e0b74780ef30ee55542bdefa1c9e7bf624f02c6368fa06cedf2cd51776a",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "bbb3b03b674e513b7899e5d3ffde61b2642e64e5e4100b919c6c7ee1744b1902",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "PROCTITLE"
+    ],
+    "id": "7b274b991cf72b74",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_ai_cli_permission_override_activated_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "85767ec719470e0832b32b3215e018f4ee84606e2ecfea4651805c68a55db046",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd AI CLI Permission Override Activated - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "ba6315bc8f831bd7f53640fb3625a62349e7ea37c6a15b4d658e9245e8863b68",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "311dcddf01a4dda5fa964f649af1a07073010f183976bd366f09c05ac6283b95",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "PROCTITLE"
+    ],
+    "id": "924a4864316b54fe",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_add_user_account_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "08e569be6d9f81b6cde78fba5dbaba34d02f73962ae83e19d1524cd6bc5b3c1e",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Add User Account - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "d5f11e27bdf38f1d96b61db8aab3bdb5eb2bdbf2386574049f8775128f4deba8",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "d241fd8b078cccf297b726f04c434cd1b390d736168a51921622c5337bbb2276",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "SYSCALL"
+    ],
+    "hint_types": [],
+    "id": "1ac55402770514c2",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_at_application_execution_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "e97879acda85fa3fa8745bd030c38b5d88decb83ba8851ef9d95676ae8d71b9a",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd At Application Execution - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "f833cf0b57238b0710b738814ab3703ed86161b457ca42116cde96830f0c5a6e",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "ca52580655f2e0d98dc8474434d09dec49e8cf50e6060ede784cffca430e4aaa",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "DAEMON_ABORT"
+    ],
+    "hint_types": [],
+    "id": "5ab79bfe81cb4b42",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_auditd_daemon_abort_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "9cddf01eca4daa3c9365fced160d48b0a71a08bca156c3c3b6f09340be040a66",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Auditd Daemon Abort - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "26b71d9286120adbedc1991e947c495eb7c84d0c8f90990ccf6f8973195f295c",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "1f65d3a90f9bb51c12c853725449393515e7fda0d2a87810af3f5b0c48271790",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "DAEMON_END"
+    ],
+    "hint_types": [],
+    "id": "2ea9f4cda202e696",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_auditd_daemon_shutdown_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "eb5954505852f632c9576cbd71d4021042c79791581ae5a932e201e563c04acf",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Auditd Daemon Shutdown - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "f98786a82de79f66eff487883722fc307774a98403dacb180637abc43b35cabe",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "db1984cf1deb5472152b4b14d8dca6bdabf591076ac45c15da5200281bbdb4b5",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "DAEMON_START"
+    ],
+    "hint_types": [],
+    "id": "98695d56efd2974c",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_auditd_daemon_start_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "a3f033d6e1b2ba399316a9d7b7d38a2eece4a9a3efbf620b5747fcbc26766151",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Auditd Daemon Start - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "8b40877f66f84dab39ac139930ba9dfbe623d720aa74cfb17a20dcd7d7b95bc4",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "dd8f9117c1a68174aeb82c88db52a570b984ba04703a8e5526b9b633b791f9e7",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "SERVICE_STOP"
+    ],
+    "hint_types": [],
+    "id": "f4804e5936948ed2",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_auditd_service_stop_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "8e4b4f2b7960052719ea5e6f0471f945819a200de51105857d70573fc9090b3e",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Auditd Service Stop - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "1e57a4f14651510733f3c4ff9c66cb9220096857749b6f7b4b46caf25dbc960d",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "b79f3fbbe22c3afbbeb7d5cb0fe0a00e4ebae6fe88847a5f5c0a1f170eef89fb",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "EXECVE"
+    ],
+    "id": "a1550f9733b9d9e2",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_base64_decode_files_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "d83184c73486940f8f866541d089fcc45a8e01b762ef9099eb699ac56fb57bd3",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Base64 Decode Files - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "f5fa50d2d1a39ce36d39ddfa434bc3e30ba1776bf25ce84eb0d523a8a57c132b",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "d7fc3a44db32ba5c6f32aa9472b8de59186a740b74ff77161d4beca6843090be",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "EXECVE"
+    ],
+    "id": "48c868fbd8b4fa24",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_clipboard_data_copy_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "355b11792707268a150c1773f850680d08bbecfb301fe2fbaf4d26d5e3f63a5d",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Clipboard Data Copy - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "377b26e14c45b9f1eaf76b667d4a9c5b029832773a8a9466ac548bda8b0daf57",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "19985f1e277a1428f6e9f790a46ea0068cb01ba9c2e6259d7a2ffad9819a16c6",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "EXECVE"
+    ],
+    "id": "30621a00e695e14c",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_database_file_and_directory_discovery_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "fff7ded091bb4b3e6e6d8cb90341b7b253604b17ae014091610d5fa89e090a4e",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Database File And Directory Discovery - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "fe0f661ae27ed31cd1e4b8b856d0f1e7aa9d6c61c89a65762d2b5dc429cced73",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "c06e0ca5681d8268245a3e0dd8e6e3949b3a8e462b95516f72033638790bac50",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "SYSCALL"
+    ],
+    "hint_types": [],
+    "id": "bb85c3dccdf97300",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_doas_tool_execution_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "d2ff240976a0d5b56cac71b3c6e76f0756416bf0a67b137a92d570b817d723e9",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Doas Tool Execution - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": null,
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "62750b49c953003b976837fbacd3b6bbdd2027cc5b12818f663c634a18c4e86f",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "SYSCALL"
+    ],
+    "hint_types": [],
+    "id": "dcd02adb09b10b0a",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_edit_cron_table_parameter_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Unknown or case-sensitive field requires extraction review: UID",
+    "schedule": "0 * * * *",
+    "search_sha256": "e708519f49932ae109ce0357db98a4c664ec83db635a0dca64b2dc8cc5e8d13a",
+    "status": "manual_conversion_required",
+    "title": "ESCU - Linux Auditd Edit Cron Table Parameter - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "5c6762ab3036f20fb524358a29e420d81c99f588ffb4de9aef56dc956a55388b",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "a76edf79dcde0d6347d78359e3a655f24b1bc83bf5803459808bf2686224d1bb",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "EXECVE"
+    ],
+    "id": "2e3bee7f292287b3",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_file_and_directory_discovery_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "eadb1991043380d818d3517998db1bc75643fc1d8357c1cd96362a0b02447f26",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd File And Directory Discovery - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "05f8c3fdb96fe7780d20aa502c295094df345a7c61216b4c4fe3dfaa32823e40",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "2a201fbc7300f9924cddf6ffd4aafc80c13d7db2e0ffafa96e31eea8bc0832e9",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "PROCTITLE"
+    ],
+    "id": "7d977fcbee46d6ea",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_file_permissions_modification_via_chattr_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "b6d1fb883fbede2e8955ba94f2bf2e1a4c1312a9927b420f7f08021cac209551",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd File Permissions Modification Via Chattr - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "080c6ebb2b1083fc5c895e9b84bde4999288513040df4efc89d7a4bfddc19261",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "a6e18b068320d4db37f800301d3e2292a53a034a297f831ab75f0a24ff048448",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "EXECVE"
+    ],
+    "id": "dbd62e059abcf6ed",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_find_ssh_private_keys_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "d009277965c387acf16fb6ae88e9123e53afa627d2854da68e5c756a6186701e",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Find Ssh Private Keys - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "a935fe10c05dd4aa0451d92552a1bf7d28d085802a28fa6ca7aeb1565ab8f2e5",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "851060e563ee0bd9822bbf09c4b65ad9549bb22b3a42a74065ee058290f4b032",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "PROCTITLE"
+    ],
+    "id": "c2f1866689dc655d",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_hardware_addition_swapoff_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "a86c4fd2ad928088bcda4207fdea74876ca2d853ea7a2b1bd0a0e324fe0a192e",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Hardware Addition Swapoff - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "4be0c2e27b0172ed7449758f69db881e890d38becb0a971a2a8488c7ac1f7641",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "75857a5ea47bde796a486a73202e3bf50a37a573b4fdf8f42ce14f96a00c35ab",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "SYSCALL"
+    ],
+    "hint_types": [],
+    "id": "327c0f21205b22b8",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_kernel_module_enumeration_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "88c3f86a28580e979e42a232d4c507a043202caa6f0740d4d19ef2ad872d2515",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Kernel Module Enumeration - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "75e4652cbf0daf2f0c0f8ee5984676b1e1de9a60ee18855357dc32f746618de1",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "a726616a424b82c881f2990ee1b8d3554d632c24d2b902ee1d9157d3d8f71506",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "PROCTITLE"
+    ],
+    "id": "70762565b7e156fb",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_nopasswd_entry_in_sudoers_file_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "a5ab2fb1fdb81eb7b963e89ab470e8d04c19e44f8a00efda6935d6485097ae4d",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Nopasswd Entry In Sudoers File - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "8113b5b1020976a26992a007b51838fb8c04682419bf07481980c651e8356a9b",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "96b6d25c0c2c2b72a7277200277e17f73c486806ac47709d61fd519d409146d9",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "SERVICE_STOP"
+    ],
+    "hint_types": [],
+    "id": "35e21a04f4b8d7cc",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_osquery_service_stop_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "d046e2bb4754f6a66e647c3d50ca9c94c141199c62a065edbd4afaeba23b42f0",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Osquery Service Stop - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": null,
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "bfbccd82f510d93bf52b7240ef42f53a9b1577f31207f07959ae15ee5bfe918b",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "CWD",
+      "PATH"
+    ],
+    "hint_types": [],
+    "id": "fef8fce50ef1b08a",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_possible_access_or_modification_of_sshd_config_file_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Pre-aggregation eval/rex/bin, joins, correlation, or unsupported aggregation requires manual conversion.",
+    "schedule": "0 * * * *",
+    "search_sha256": "8b6838fc1e7e8f864eb27e6062ffc23f0167f6d1d1178735341287a04f4e6b79",
+    "status": "manual_conversion_required",
+    "title": "ESCU - Linux Auditd Possible Access Or Modification Of Sshd Config File - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "91cd46bb81bbe7ffa81970b3e3f5c56081f44d9a1685b995692fefd7e80a9a8d",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "6e00ddff4e340473a2667b547c1cb7c553a00b27b7956b67c950dd08553cc495",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "PROCTITLE"
+    ],
+    "id": "e49d31a342bfb57a",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_possible_access_to_credential_files_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "3e3d1a23884c9c337da2c182f9514fecbe6b7c78abb59e7e475a30f7f3edd1a4",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Possible Access To Credential Files - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": null,
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "8ce5751a1955d280b3912c7749b36fa45a995de0449bcdaf973715115b477a50",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "CWD",
+      "PATH"
+    ],
+    "hint_types": [],
+    "id": "aa32013913e7bfa4",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_possible_access_to_sudoers_file_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Pre-aggregation eval/rex/bin, joins, correlation, or unsupported aggregation requires manual conversion.",
+    "schedule": "0 * * * *",
+    "search_sha256": "049c016723da83541956f3d1e3d66dab04532cd51e56b2873ca67e9857b10ea8",
+    "status": "manual_conversion_required",
+    "title": "ESCU - Linux Auditd Possible Access To Sudoers File - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": null,
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "d76256634df0b4e9d12f26d4f436ff583a361d8e83e2c881af541659f0f5a1f4",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "CWD",
+      "PATH"
+    ],
+    "hint_types": [],
+    "id": "e659b385a9dc68f6",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_possible_append_cronjob_entry_on_existing_cronjob_file_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Pre-aggregation eval/rex/bin, joins, correlation, or unsupported aggregation requires manual conversion.",
+    "schedule": "0 * * * *",
+    "search_sha256": "7adb287afdb16fa45ea0e8e76b78e98a23dc2ac5ec69ffdf3ec715fc34982472",
+    "status": "manual_conversion_required",
+    "title": "ESCU - Linux Auditd Possible Append Cronjob Entry On Existing Cronjob File - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": null,
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "a481fae9f45464d59e6a720f48b1ae0f5abdfbe8b23db6745325655edd95d8e9",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "CRED_ACQ",
+      "SYSCALL",
+      "USER_ACCT",
+      "USER_AUTH"
+    ],
+    "hint_types": [],
+    "id": "931e563bb43e07e0",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_possible_setuid_execve_privesc_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Pre-aggregation eval/rex/bin, joins, correlation, or unsupported aggregation requires manual conversion.",
+    "schedule": "0 * * * *",
+    "search_sha256": "90028be95fe649a875b05a733dd6777c7d199923aaeb444e68ed4361f35ea121",
+    "status": "manual_conversion_required",
+    "title": "ESCU - Linux Auditd Possible Setuid Execve Privesc - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "015320ab2d6a81c8d55aed5f71be4e60d2e6a1c87862ea884d832cc036049a30",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "ea46d12aaa969c2b5fa1519005c7ab369fc2b80241fd5b7fdc88ead409e1eccf",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "EXECVE"
+    ],
+    "id": "c91f008537fb09dd",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_private_keys_and_certificate_enumeration_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "8e5a94c2dd4013662cc851b6ddf48ac84913cd1f165e6d52bb0870d89f73b32b",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Private Keys and Certificate Enumeration - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "8ec85500444b989fc2f879dc122acd41a69b5b7909ecdfb67773084cc6570ae8",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "d830d322e39ddb8dfad12b0c72a099295e6734f0b41edf31192ab2e3385f70aa",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "PROCTITLE"
+    ],
+    "id": "43e50966a4139ed7",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_service_restarted_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "4a6c2c5cc04ddcf7dbf6ef8be2e188b9fbe7bbc53a581f2375909a958fbc6bb8",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Service Restarted - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "50576193175767755ff3f95c9ad08c2e05b1027653d29ce83adb8c55f4bfa107",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "ca8e4d52619fdfb515be3519dc62e7a23ea2d0866fd08c6e492a83956e593ec3",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "PROCTITLE"
+    ],
+    "id": "93205fa2ffdb48d4",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_service_started_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "31ffe1a3e898065bfe3e7fcfb1ceccc067cf5a5cf965a09b9fca05d9bfd709de",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Service Started - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "338f3eed6516732c853ed47452673dbffe71241f437563d517f19941de4590e0",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "874eefc875ec06f87c21661db16bdfc3ea78f6d1e5df6f4b023ecd44337b9b14",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "PROCTITLE"
+    ],
+    "id": "00704354ea74f2de",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_setuid_using_chmod_utility_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "12d1252c62107283c1b01912ac701ee80cfebeb4999472c7139fb0532d04ddaa",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Setuid Using Chmod Utility - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "23f452a81eaff1eb7d9e6974d039561b36b64dd658825e37b7e996e9479a5698",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "4576dbb9f2c521f5216d613fd184c42108a41e549445ca39f97f8e8e126dc7c9",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "SERVICE_STOP"
+    ],
+    "hint_types": [],
+    "id": "5daa54b3bf0e0d1a",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_stop_services_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "113d5b9b97ebef65efa97032aceb94a1969f1b0ff2a63b0b224144b7c08f3d86",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Stop Services - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "63445b24fae5580576b6005c542ae373ecd55416e302a5e1071a84e1253c505c",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "6b9de6161f062e460672e30ded223d335f278ca796fa80121f8e166e7b6f254d",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "PROCTITLE"
+    ],
+    "id": "776750b426ebce3b",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_sudo_or_su_execution_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "70b445face26f0f4254efa9b6a2b8fbc964abf9fa957c04da591251536531fe4",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Sudo Or Su Execution - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "10c6b3346475c71e8a7c91c1edb8be2a1103bc69a24a270956fe7d4e02c60df7",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "856acb7423fa9ade42358459266249a42054401661b17ecdb41fef458436901f",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "SERVICE_STOP"
+    ],
+    "hint_types": [],
+    "id": "1bf76380217501bf",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_sysmon_service_stop_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "50f591d3e4a207c76bd846ee04dec4ffaa60d145e378d78841f66a6d256745e6",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Sysmon Service Stop - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": null,
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "3549de9d431d3240906bfcd9ef664d1a449b7f17f45463b48d4d374be80c862a",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "SYSCALL"
+    ],
+    "hint_types": [],
+    "id": "fe045377e2702a26",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_system_network_configuration_discovery_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Pre-aggregation eval/rex/bin, joins, correlation, or unsupported aggregation requires manual conversion.",
+    "schedule": "0 * * * *",
+    "search_sha256": "38ba827576ca4cb4e86c6c343c331b1dcb282a029fd2b5dc475af697507d09dd",
+    "status": "manual_conversion_required",
+    "title": "ESCU - Linux Auditd System Network Configuration Discovery - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": "aa2598e94456d0cc47885a6275412a0ffa61de4fa8702281295b8cb2992d9c15",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "1fb097df37718ae4b8b591fe186be4c761b2cc5c8dc69a794d21655332581e7f",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [],
+    "hint_types": [
+      "EXECVE"
+    ],
+    "id": "eb66c14834d6789f",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_auditd_virtual_disk_file_and_directory_discovery_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "0 * * * *",
+    "search_sha256": "79420578f024b76f63128f3e302048829ea0ad64678c3557d181cec04a370a67",
+    "status": "pending_human_review",
+    "title": "ESCU - Linux Auditd Virtual Disk File And Directory Discovery - Rule"
+  },
+  {
+    "app": "DA-ESS-ContentUpdate",
+    "candidate_sha256": null,
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "2f92c686eb513c18c3e637c6d9f3714ed3b58bbd224dee43c62fea233efb5e09",
+    "disabled": "1",
+    "earliest": "-70m@m",
+    "explicit_types": [
+      "SYSCALL"
+    ],
+    "hint_types": [],
+    "id": "c8f200650f06f18e",
+    "latest": "-10m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "linux_dirty_frag_kernel_privilege_escalation_filter",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Pre-aggregation eval/rex/bin, joins, correlation, or unsupported aggregation requires manual conversion.",
+    "schedule": "0 * * * *",
+    "search_sha256": "a70a316c2949352729b61be9fb43d867a223f779eb16fb5c38520e7f2f7757ca",
+    "status": "manual_conversion_required",
+    "title": "ESCU - Linux Dirty Frag Kernel Privilege Escalation - Rule"
+  },
+  {
+    "app": "SplunkEnterpriseSecuritySuite",
+    "candidate_sha256": "12cb7aec45207c3660ac1501deabae7ce3bde1b1f0f93717277d097ea17c4505",
+    "csv_present": false,
+    "csv_search_matches": null,
+    "dependency_context_sha256": "bf65a3cf2c3c035f3353fee14662eb936304337fd98babbedaea0f8165dc42c6",
+    "disabled": "inherited",
+    "earliest": "-10m@m",
+    "explicit_types": [],
+    "hint_types": [],
+    "id": "a04362e9162949ec",
+    "latest": "-1m@m",
+    "macro_dependencies": [
+      "linux_auditd",
+      "security_content_ctime"
+    ],
+    "missing_macros": [],
+    "reason": "Candidate only: requires paired runtime result equivalence and human approval.",
+    "schedule": "*/3 * * * *",
+    "search_sha256": "8583abb676413a1345c30af06aeb15650fff807252db1e90c3ce5840b7813567",
+    "status": "pending_human_review",
+    "title": "Threat - Linux Auditd Log does not send - Rule - Rule"
+  }
+]

@@ -1,0 +1,4 @@
+Index Exile extension 1.0.0
+Base vendor version retained; this is a locally modified build.
+Excluded: local/, metadata/local.meta and vendor package checksum manifest.
+No collector or ingestion behavior changed.

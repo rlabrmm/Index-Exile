@@ -1,0 +1,5 @@
+| tstats summariesonly=false allow_old_summaries=false count min(_time) as firstTime max(_time) as lastTime FROM datamodel=Linux_Auditd.Auditd WHERE (index=linux) AND ((Auditd.proctitle = "*gemini*" AND Auditd.proctitle IN ("*--yolo*", "*-y *")) OR  (Auditd.proctitle = "*claude*" AND Auditd.proctitle= "*--dangerously-skip-permissions*")) BY Auditd.proctitle Auditd.host
+| rename Auditd.proctitle AS proctitle Auditd.host AS dest
+| `security_content_ctime(firstTime)`
+| `security_content_ctime(lastTime)`
+| `linux_auditd_ai_cli_permission_override_activated_filter`

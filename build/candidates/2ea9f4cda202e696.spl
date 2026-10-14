@@ -1,0 +1,5 @@
+| tstats summariesonly=false allow_old_summaries=false count min(_time) as firstTime max(_time) as lastTime FROM datamodel=Linux_Auditd.Auditd WHERE (index=linux) AND (Auditd.type=DAEMON_END) BY Auditd.type Auditd.op Auditd.res Auditd.auid Auditd.host Auditd.pid
+| rename Auditd.type AS type Auditd.op AS op Auditd.res AS res Auditd.auid AS auid Auditd.host AS dest Auditd.pid AS pid
+| `security_content_ctime(firstTime)`
+| `security_content_ctime(lastTime)`
+| `linux_auditd_auditd_daemon_shutdown_filter`

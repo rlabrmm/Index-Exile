@@ -1,0 +1,6 @@
+| tstats summariesonly=false allow_old_summaries=false max(_time) as lastTime FROM datamodel=Linux_Auditd.Auditd WHERE (index=linux) BY Auditd.host
+| rename Auditd.host AS host
+| eval lag_min = round((now() - lastTime)/60, 1)
+| where lag_min > 10
+| `security_content_ctime(lastTime)`
+| sort - lag_min

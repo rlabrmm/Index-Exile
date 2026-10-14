@@ -1,0 +1,376 @@
+{
+  "description": "Sanitized retained schema knowledge from initial development. No raw events or CSV files are required to use it.",
+  "types": [
+    {
+      "type": "ADD_USER",
+      "dataset": "ADD_USER",
+      "fields": [],
+      "original_evidence": "rule_only_unvalidated"
+    },
+    {
+      "type": "ANOM_PROMISCUOUS",
+      "dataset": "ANOM_PROMISCUOUS",
+      "fields": [
+        "dev",
+        "old_prom",
+        "prom"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "AVC",
+      "dataset": "AVC",
+      "fields": [
+        "capability",
+        "permissive",
+        "scontext",
+        "tclass",
+        "tcontext"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "BPF",
+      "dataset": "BPF",
+      "fields": [],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "BPRM_FCAPS",
+      "dataset": "BPRM_FCAPS",
+      "fields": [
+        "fe",
+        "fi",
+        "fp",
+        "frootid",
+        "fver",
+        "old_pa",
+        "old_pe",
+        "old_pi",
+        "old_pp",
+        "pa",
+        "pe",
+        "pi",
+        "pp"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "CONFIG_CHANGE",
+      "dataset": "CONFIG_CHANGE",
+      "fields": [
+        "new_enabled",
+        "new_log_passwd",
+        "old_enabled",
+        "old_log_passwd"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "CRED_ACQ",
+      "dataset": "CRED_ACQ",
+      "fields": [],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "CRED_DISP",
+      "dataset": "CRED_DISP",
+      "fields": [],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "CRED_REFR",
+      "dataset": "CRED_REFR",
+      "fields": [
+        "grantors"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "CRYPTO_KEY_USER",
+      "dataset": "CRYPTO_KEY_USER",
+      "fields": [
+        "direction",
+        "fp",
+        "kind",
+        "spid"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "CRYPTO_SESSION",
+      "dataset": "CRYPTO_SESSION",
+      "fields": [
+        "cipher",
+        "direction",
+        "ksize",
+        "laddr",
+        "lport",
+        "rport",
+        "spid"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "CWD",
+      "dataset": "CWD",
+      "fields": [],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "DAEMON_ABORT",
+      "dataset": "DAEMON_ABORT",
+      "fields": [],
+      "original_evidence": "rule_only_unvalidated"
+    },
+    {
+      "type": "DAEMON_CONFIG",
+      "dataset": "DAEMON_CONFIG",
+      "fields": [
+        "state"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "DAEMON_END",
+      "dataset": "DAEMON_END",
+      "fields": [],
+      "original_evidence": "rule_only_unvalidated"
+    },
+    {
+      "type": "DAEMON_START",
+      "dataset": "DAEMON_START",
+      "fields": [],
+      "original_evidence": "rule_only_unvalidated"
+    },
+    {
+      "type": "EXECVE",
+      "dataset": "EXECVE",
+      "fields": [],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "FD_PAIR",
+      "dataset": "FD_PAIR",
+      "fields": [
+        "fd0",
+        "fd1"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "IPC",
+      "dataset": "IPC",
+      "fields": [
+        "mode",
+        "ogid",
+        "ouid"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "IPC_SET_PERM",
+      "dataset": "IPC_SET_PERM",
+      "fields": [
+        "mode",
+        "ogid",
+        "ouid",
+        "qbytes"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "LOGIN",
+      "dataset": "LOGIN",
+      "fields": [],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "MMAP",
+      "dataset": "MMAP",
+      "fields": [
+        "fd",
+        "flags"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "NETFILTER_CFG",
+      "dataset": "NETFILTER_CFG",
+      "fields": [
+        "entries",
+        "family",
+        "table"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "OBJ_PID",
+      "dataset": "OBJ_PID",
+      "fields": [
+        "oauid",
+        "obj",
+        "ocomm",
+        "opid",
+        "oses",
+        "ouid"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "OPENAT2",
+      "dataset": "OPENAT2",
+      "fields": [
+        "mode",
+        "oflag",
+        "resolve"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "PATH",
+      "dataset": "PATH",
+      "fields": [
+        "cap_fe",
+        "cap_fi",
+        "cap_fp",
+        "cap_frootid",
+        "cap_fver",
+        "dev",
+        "inode",
+        "item",
+        "mode",
+        "obj",
+        "ogid",
+        "ouid",
+        "rdev"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "PROCTITLE",
+      "dataset": "PROCTITLE",
+      "fields": [],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "SECCOMP",
+      "dataset": "SECCOMP",
+      "fields": [
+        "code",
+        "compat",
+        "ip",
+        "sig"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "SERVICE_START",
+      "dataset": "SERVICE_START",
+      "fields": [],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "SERVICE_STOP",
+      "dataset": "SERVICE_STOP",
+      "fields": [],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "SOCKADDR",
+      "dataset": "SOCKADDR",
+      "fields": [
+        "fam",
+        "saddr"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "SOCKETCALL",
+      "dataset": "SOCKETCALL",
+      "fields": [
+        "nargs"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "SYSCALL",
+      "dataset": "SYSCALL",
+      "fields": [
+        "items"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "SYSCSYSCALL",
+      "dataset": "SYSCSYSCALL",
+      "fields": [
+        "items"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "TTY",
+      "dataset": "TTY",
+      "fields": [
+        "major",
+        "minor"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "UNKNOWN[1333]",
+      "dataset": "UNKNOWN_1333",
+      "fields": [
+        "new",
+        "old"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "USER_ACCT",
+      "dataset": "USER_ACCT",
+      "fields": [],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "USER_AUTH",
+      "dataset": "USER_AUTH",
+      "fields": [],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "USER_CMD",
+      "dataset": "USER_CMD",
+      "fields": [],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "USER_END",
+      "dataset": "USER_END",
+      "fields": [],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "USER_LOGIN",
+      "dataset": "USER_LOGIN",
+      "fields": [],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "USER_ROLE_CHANGE",
+      "dataset": "USER_ROLE_CHANGE",
+      "fields": [
+        "default_context",
+        "selected_context"
+      ],
+      "original_evidence": "observed_raw"
+    },
+    {
+      "type": "USER_START",
+      "dataset": "USER_START",
+      "fields": [],
+      "original_evidence": "observed_raw"
+    }
+  ]
+}

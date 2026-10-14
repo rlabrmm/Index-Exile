@@ -1,0 +1,5 @@
+| tstats summariesonly=false allow_old_summaries=false count min(_time) as firstTime max(_time) as lastTime FROM datamodel=Linux_Auditd.Auditd WHERE (index=linux) AND (Auditd.proctitle = "*dd *" AND Auditd.proctitle = "*of=*" AND Auditd.proctitle = "*if=/dev/zero*") BY Auditd.proctitle Auditd.host
+| rename Auditd.proctitle AS proctitle Auditd.host AS dest
+| `security_content_ctime(firstTime)`
+| `security_content_ctime(lastTime)`
+| `linux_auditd_dd_file_overwrite_filter`

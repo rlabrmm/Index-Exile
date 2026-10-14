@@ -1,0 +1,10 @@
+[
+  {
+    "file": "Splunk_TA_nix.tgz",
+    "sha256": "not committed; rebuild locally"
+  },
+  {
+    "file": "SA_index_exile_auditd.tgz",
+    "sha256": "not committed; rebuild locally"
+  }
+]

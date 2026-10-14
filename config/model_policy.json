@@ -1,0 +1,10 @@
+{
+  "model": "Linux_Auditd",
+  "root": "Auditd",
+  "index_constraint": "index=linux",
+  "sourcetypes": ["auditd"],
+  "max_execve_args": 64,
+  "additional_types": [],
+  "additional_fields": {},
+  "version": "1.0.0"
+}

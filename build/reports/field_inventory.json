@@ -1,0 +1,1827 @@
+[
+  {
+    "dataset": "Auditd",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "a0",
+        "fieldName": "a0",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "a1",
+        "fieldName": "a1",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "a2",
+        "fieldName": "a2",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "a3",
+        "fieldName": "a3",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "acct",
+        "fieldName": "acct",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "addr",
+        "fieldName": "addr",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "arch",
+        "fieldName": "arch",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "argc",
+        "fieldName": "argc",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "number"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "audit_event_id",
+        "fieldName": "audit_event_id",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "audit_id",
+        "fieldName": "audit_id",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "audit_type",
+        "fieldName": "audit_type",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "auid",
+        "fieldName": "auid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "comm",
+        "fieldName": "comm",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "cwd",
+        "fieldName": "cwd",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "dest",
+        "fieldName": "dest",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "egid",
+        "fieldName": "egid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "euid",
+        "fieldName": "euid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "exe",
+        "fieldName": "exe",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "execve_command",
+        "fieldName": "execve_command",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "exit",
+        "fieldName": "exit",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "fsgid",
+        "fieldName": "fsgid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "fsuid",
+        "fieldName": "fsuid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "gid",
+        "fieldName": "gid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "hostname",
+        "fieldName": "hostname",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "key",
+        "fieldName": "key",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "name",
+        "fieldName": "name",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "nametype",
+        "fieldName": "nametype",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "node",
+        "fieldName": "node",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "op",
+        "fieldName": "op",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "pid",
+        "fieldName": "pid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "number"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "ppid",
+        "fieldName": "ppid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "number"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "proctitle",
+        "fieldName": "proctitle",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "res",
+        "fieldName": "res",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "ses",
+        "fieldName": "ses",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "sgid",
+        "fieldName": "sgid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "subj",
+        "fieldName": "subj",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "success",
+        "fieldName": "success",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "suid",
+        "fieldName": "suid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "syscall",
+        "fieldName": "syscall",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "terminal",
+        "fieldName": "terminal",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "tty",
+        "fieldName": "tty",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "type",
+        "fieldName": "type",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "uid",
+        "fieldName": "uid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "unit",
+        "fieldName": "unit",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "user",
+        "fieldName": "user",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "audit_event_key",
+        "fieldName": "audit_event_key",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "dataset": "ADD_USER",
+    "fields": []
+  },
+  {
+    "dataset": "ANOM_PROMISCUOUS",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "dev",
+        "fieldName": "dev",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "old_prom",
+        "fieldName": "old_prom",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "prom",
+        "fieldName": "prom",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "dataset": "AVC",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "capability",
+        "fieldName": "capability",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "permissive",
+        "fieldName": "permissive",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "scontext",
+        "fieldName": "scontext",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "tclass",
+        "fieldName": "tclass",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "tcontext",
+        "fieldName": "tcontext",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "dataset": "BPF",
+    "fields": []
+  },
+  {
+    "dataset": "BPRM_FCAPS",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "fe",
+        "fieldName": "fe",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "fi",
+        "fieldName": "fi",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "fp",
+        "fieldName": "fp",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "frootid",
+        "fieldName": "frootid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "fver",
+        "fieldName": "fver",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "old_pa",
+        "fieldName": "old_pa",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "old_pe",
+        "fieldName": "old_pe",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "old_pi",
+        "fieldName": "old_pi",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "old_pp",
+        "fieldName": "old_pp",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "pa",
+        "fieldName": "pa",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "pe",
+        "fieldName": "pe",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "pi",
+        "fieldName": "pi",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "pp",
+        "fieldName": "pp",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "dataset": "CONFIG_CHANGE",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "new_enabled",
+        "fieldName": "new_enabled",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "new_log_passwd",
+        "fieldName": "new_log_passwd",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "old_enabled",
+        "fieldName": "old_enabled",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "old_log_passwd",
+        "fieldName": "old_log_passwd",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "dataset": "CRED_ACQ",
+    "fields": []
+  },
+  {
+    "dataset": "CRED_DISP",
+    "fields": []
+  },
+  {
+    "dataset": "CRED_REFR",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "grantors",
+        "fieldName": "grantors",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "dataset": "CRYPTO_KEY_USER",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "direction",
+        "fieldName": "direction",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "fp",
+        "fieldName": "fp",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "kind",
+        "fieldName": "kind",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "spid",
+        "fieldName": "spid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "dataset": "CRYPTO_SESSION",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "cipher",
+        "fieldName": "cipher",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "direction",
+        "fieldName": "direction",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "ksize",
+        "fieldName": "ksize",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "number"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "laddr",
+        "fieldName": "laddr",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "lport",
+        "fieldName": "lport",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "number"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "rport",
+        "fieldName": "rport",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "number"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "spid",
+        "fieldName": "spid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "dataset": "CWD",
+    "fields": []
+  },
+  {
+    "dataset": "DAEMON_ABORT",
+    "fields": []
+  },
+  {
+    "dataset": "DAEMON_CONFIG",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "state",
+        "fieldName": "state",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "dataset": "DAEMON_END",
+    "fields": []
+  },
+  {
+    "dataset": "DAEMON_START",
+    "fields": []
+  },
+  {
+    "dataset": "EXECVE",
+    "fields": []
+  },
+  {
+    "dataset": "FD_PAIR",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "fd0",
+        "fieldName": "fd0",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "number"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "fd1",
+        "fieldName": "fd1",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "dataset": "IPC",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "mode",
+        "fieldName": "mode",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "ogid",
+        "fieldName": "ogid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "ouid",
+        "fieldName": "ouid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "dataset": "IPC_SET_PERM",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "mode",
+        "fieldName": "mode",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "ogid",
+        "fieldName": "ogid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "ouid",
+        "fieldName": "ouid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "qbytes",
+        "fieldName": "qbytes",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "dataset": "LOGIN",
+    "fields": []
+  },
+  {
+    "dataset": "MMAP",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "fd",
+        "fieldName": "fd",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "flags",
+        "fieldName": "flags",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "dataset": "NETFILTER_CFG",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "entries",
+        "fieldName": "entries",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "number"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "family",
+        "fieldName": "family",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "table",
+        "fieldName": "table",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "dataset": "OBJ_PID",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "oauid",
+        "fieldName": "oauid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "obj",
+        "fieldName": "obj",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "ocomm",
+        "fieldName": "ocomm",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "opid",
+        "fieldName": "opid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "number"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "oses",
+        "fieldName": "oses",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "ouid",
+        "fieldName": "ouid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "dataset": "OPENAT2",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "mode",
+        "fieldName": "mode",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "oflag",
+        "fieldName": "oflag",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "resolve",
+        "fieldName": "resolve",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "dataset": "PATH",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "cap_fe",
+        "fieldName": "cap_fe",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "cap_fi",
+        "fieldName": "cap_fi",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "cap_fp",
+        "fieldName": "cap_fp",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "cap_frootid",
+        "fieldName": "cap_frootid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "cap_fver",
+        "fieldName": "cap_fver",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "dev",
+        "fieldName": "dev",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "inode",
+        "fieldName": "inode",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "item",
+        "fieldName": "item",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "number"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "mode",
+        "fieldName": "mode",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "obj",
+        "fieldName": "obj",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "ogid",
+        "fieldName": "ogid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "ouid",
+        "fieldName": "ouid",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "rdev",
+        "fieldName": "rdev",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "dataset": "PROCTITLE",
+    "fields": []
+  },
+  {
+    "dataset": "SECCOMP",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "code",
+        "fieldName": "code",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "compat",
+        "fieldName": "compat",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "ip",
+        "fieldName": "ip",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "sig",
+        "fieldName": "sig",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "dataset": "SERVICE_START",
+    "fields": []
+  },
+  {
+    "dataset": "SERVICE_STOP",
+    "fields": []
+  },
+  {
+    "dataset": "SOCKADDR",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "fam",
+        "fieldName": "fam",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "saddr",
+        "fieldName": "saddr",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "dataset": "SOCKETCALL",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "nargs",
+        "fieldName": "nargs",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "dataset": "SYSCALL",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "items",
+        "fieldName": "items",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "dataset": "SYSCSYSCALL",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "items",
+        "fieldName": "items",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "dataset": "TTY",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "major",
+        "fieldName": "major",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "number"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "minor",
+        "fieldName": "minor",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "dataset": "UNKNOWN_1333",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "new",
+        "fieldName": "new",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "old",
+        "fieldName": "old",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "dataset": "USER_ACCT",
+    "fields": []
+  },
+  {
+    "dataset": "USER_AUTH",
+    "fields": []
+  },
+  {
+    "dataset": "USER_CMD",
+    "fields": []
+  },
+  {
+    "dataset": "USER_END",
+    "fields": []
+  },
+  {
+    "dataset": "USER_LOGIN",
+    "fields": []
+  },
+  {
+    "dataset": "USER_ROLE_CHANGE",
+    "fields": [
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "default_context",
+        "fieldName": "default_context",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      },
+      {
+        "comment": {
+          "description": "Audit record field; absent values remain absent. IDs and mixed name/numeric values remain strings."
+        },
+        "displayName": "selected_context",
+        "fieldName": "selected_context",
+        "fieldSearch": "",
+        "hidden": false,
+        "multivalue": false,
+        "required": false,
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "dataset": "USER_START",
+    "fields": []
+  },
+  {
+    "dataset": "Unmapped",
+    "fields": []
+  }
+]

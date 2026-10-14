@@ -1,0 +1,994 @@
+[
+  {
+    "path": "Splunk_TA_nix/app.manifest",
+    "sha256": "880f3ed202ed80c8729c01d0d42cb43f1c53ca079b3e74a21b4a7ca3b80357b7"
+  },
+  {
+    "path": "Splunk_TA_nix/appserver/static/appIcon.png",
+    "sha256": "6cb62d7fd2d90e69d66c3e4fbede9692f9d650176a7a9ec06edd4026f1de580a"
+  },
+  {
+    "path": "Splunk_TA_nix/appserver/static/components/js_sdk_extensions/common.js",
+    "sha256": "295fe307ec286b9b4eb89c4b59dbd6204376e63b7346c26fd1b087446db372c2"
+  },
+  {
+    "path": "Splunk_TA_nix/appserver/static/components/js_sdk_extensions/monitor_inputs.js",
+    "sha256": "27af704acaeb3b98c78ad5322a6171e1b748b5650be809f5d92a4e5618529123"
+  },
+  {
+    "path": "Splunk_TA_nix/appserver/static/components/js_sdk_extensions/scripted_inputs.js",
+    "sha256": "6fe5d6f31a60a86d9988170e1641f13eb315351f890c2247c6de83b3aa372e26"
+  },
+  {
+    "path": "Splunk_TA_nix/appserver/static/setup.css",
+    "sha256": "f27882e6a07bbd87f99f95d77211439e71959efae6d52ce4771ce26d06e0bcc9"
+  },
+  {
+    "path": "Splunk_TA_nix/appserver/static/setup.js",
+    "sha256": "a3d4e2567779b605a97daa3ced2fc49a8e487a5ec4ee95080392824eb74e7e11"
+  },
+  {
+    "path": "Splunk_TA_nix/appserver/static/setup_cloud.js",
+    "sha256": "00875c907fd0dc80fa5d05130c28410a8abd99a0ff43da86c6af87e01d8a21da"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/bandwidth.sh",
+    "sha256": "4da182e234d9f1ac7375f1f73dc381a175de6f6727442760a7a94c202a0d27ee"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/common.sh",
+    "sha256": "7cb1e3d60ca44d458efffd890101c7ebb6d53f61fbeb0c881d3163a9c1ae4acd"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/cpu.sh",
+    "sha256": "5a08b99fc719ddb2a52c0e14851c41a3ec00fcab1d22266776a9663bd0ad513a"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/cpu_metric.sh",
+    "sha256": "d586ebd5828bb859784bbd38508615dece134c309c4d4648743de8de2e23145b"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/df.sh",
+    "sha256": "cf44d7fc37f3e8bd0ad45ad52c6ead1e4eba0c24b7df6591ea81ed9ccefd86a5"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/df_metric.sh",
+    "sha256": "fd80b682cc891492b2ac0814ee100ac602a44784d26090e68c3bf43a65033d2d"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/hardware.sh",
+    "sha256": "dfb592e770a983e845c4facdb0ab0109e603776e7c165c5d2e8241d2f9f56d74"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/interfaces.sh",
+    "sha256": "fdd7ca13d0633ded21b612fb90acc732e12d4e85d94fe8858b15c8cc5d0d9ebb"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/interfaces_metric.sh",
+    "sha256": "453202bc659f86ece721af3ff63f7e486b30fd95a34b7f33eaceeb1b8ba3080f"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/iostat.sh",
+    "sha256": "e061b38ecc91dac97e3866303ec9cebdd66bda4c8840f9892ac3a11d6e1119e9"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/iostat_metric.sh",
+    "sha256": "00cd13732819423428e4e0e3e7755ab6166d497eef1532c00a21d4247467a2d3"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/lastlog.sh",
+    "sha256": "49780f6191857ff198d686a5816df33e647953f6b4e2c0b8b74da7544f81d1a1"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/lsof.sh",
+    "sha256": "6c866d8c9d696919f07b0864bad7a57c884dbba4afc9eb526c16381d1ced0651"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/netstat.sh",
+    "sha256": "cf59f2d06335063e39c34fc7f943b5036ab950a56e7c854a58c23961f85728cf"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/nfsiostat.sh",
+    "sha256": "616fa9245a3e89829da4bfd0901c5f118a766229cc5c7efa689dd3632057226a"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/openPorts.sh",
+    "sha256": "78c65c42a30407cf83e6e5cc02f38a1582892a8b174f2908c9ff6c5008a5185f"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/openPortsEnhanced.sh",
+    "sha256": "a48629a3fc9f99ccfac070b8c12483d00452c0f5530e870aef8025209be3f719"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/package.sh",
+    "sha256": "969e87b45c30d33f97d71f6dee5207ab316fc002974dcc7173fe4282cac49deb"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/passwd.sh",
+    "sha256": "43bbaf6f474b19eaa33bbd3a211c5f05baaca1c8054bb27111300066e8a2a4bc"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/protocol.sh",
+    "sha256": "c6c67a80291c3ddcebaebf1bb1ca803aa7f6788f50b8107a96591a964df21325"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/ps.sh",
+    "sha256": "a6410a2fd13baf04293dabc1bdf87dfb27f9053093c314e7247ef7d7949134fa"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/ps_metric.sh",
+    "sha256": "f64f1823d7d5e5666bb6e9762411695de17721e61bb8cd133c0feeba2d00452a"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/rlog.sh",
+    "sha256": "003f20fcbbc9025938346224a7d8e4482451a70ae4b58d6331519e55d5711c4c"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/selinuxChecker.sh",
+    "sha256": "d53a56969fd63fb03b83dfa4f15b176340616c2d90e7786e9c2915de10007c0f"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/service.sh",
+    "sha256": "0fb7c94bb476c4509cf0694ea365efbe2b820b547068d310cff11b35a201d252"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/setup.sh",
+    "sha256": "102460dd7db695c753a2710cb7b8202e9a1543eb670d48384eb2b5c014231f8f"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/setupservice.py",
+    "sha256": "67c36b304a1693772b6efea6e06ea23657461d394062e2520f62672ec3fc6766"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/sshdChecker.sh",
+    "sha256": "d01610d6ce7204e7de063bc72b7452c7839de390a764a4bb596f8334b05b6ca5"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/time.sh",
+    "sha256": "86e46cbd14715419905341ebf6894f6df67c38200277b8230c1607ddae70f574"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/top.sh",
+    "sha256": "78281eb09ba3aee954f4fe1e23f03c3f0626cd6d4e7a0b8897a872a88de3caa5"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/update.sh",
+    "sha256": "421161563541e1d623e713da2d809cc4741005572c94279d94a895783e26dc74"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/uptime.sh",
+    "sha256": "9d47de23f02e8df2d115916aa2d39c670d3906ef535e2ce5d61a9b6040dd2941"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/usersWithLoginPrivs.sh",
+    "sha256": "80e02dd95d7b238a2a38a6e8165ea7418f73b41dd21ca3f310948014274312e7"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/version.sh",
+    "sha256": "93df3b8c69c7764966d9e86c40ebe0fe68adfa1e41b1ebcb43a2988c1bed15d2"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/vmstat.sh",
+    "sha256": "8d6c38f4ecca1129656aa922d7f3c571b1732c0d097163df62915e1abc27f6ba"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/vmstat_metric.sh",
+    "sha256": "a1329bdb5c7e1768b9cc3b7e2dda9f786b5577635fafe61c6814d3954702bfc9"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/vsftpdChecker.sh",
+    "sha256": "53723f1c6b60bf066aee58d1c9e326ccf393b379d82ff4e01f44a461530c42ed"
+  },
+  {
+    "path": "Splunk_TA_nix/bin/who.sh",
+    "sha256": "ba5c25645e57938297bf85f5869924b9a006f27511b4e7f067e196a9049898cf"
+  },
+  {
+    "path": "Splunk_TA_nix/default/app.conf",
+    "sha256": "3b5a4ae45b18070d33cd21ee44156e4606f374c207aa3309d71d31e6668cbf34"
+  },
+  {
+    "path": "Splunk_TA_nix/default/data/ui/nav/default.xml",
+    "sha256": "36078398f91fa377c21f2369271797cc0016b8ba1a6f271e327cce2809f2711d"
+  },
+  {
+    "path": "Splunk_TA_nix/default/data/ui/views/ta_nix_configuration.env_cloud.xml",
+    "sha256": "7176b693e2eeb2757d6a5a9651e793141a52b5b36f4b229c31f4ab3e970e8510"
+  },
+  {
+    "path": "Splunk_TA_nix/default/data/ui/views/ta_nix_configuration.xml",
+    "sha256": "2d30308510e08aea0a190984fda45b708ab373768796494202a4813c37ef74d2"
+  },
+  {
+    "path": "Splunk_TA_nix/default/eventtypes.conf",
+    "sha256": "5b517737ba9e2543fc3e46d2fc7619451f97c89623225687fb1fbbbafb740ec0"
+  },
+  {
+    "path": "Splunk_TA_nix/default/inputs.conf",
+    "sha256": "193c2adaf31caf8be775a18fc49a17b6603715ebc721c2b38d531b4b72f0d9cb"
+  },
+  {
+    "path": "Splunk_TA_nix/default/macros.conf",
+    "sha256": "1654b2a87cb8c728837d048ecf1f2e9edec701618eae8a9d1d8c3f85958518ae"
+  },
+  {
+    "path": "Splunk_TA_nix/default/props.conf",
+    "sha256": "f9b55acbbeacf6613c84b21431b60fedd1c204fdcdb1e7bb0038ba1350770fc7"
+  },
+  {
+    "path": "Splunk_TA_nix/default/restmap.conf",
+    "sha256": "0c8a09ad79c266a28d987730706ecd7cd06802aecd1dbf4a3b01fe689fd0d0e7"
+  },
+  {
+    "path": "Splunk_TA_nix/default/tags.conf",
+    "sha256": "c3e8aa2f96f145fb51a5ed3e24f21d1e6c5f4832c888c2581b3f96347c0df192"
+  },
+  {
+    "path": "Splunk_TA_nix/default/transforms.conf",
+    "sha256": "0a97a430b157ef736b69849bbe636c674ed31ff0bea3088076bd5ed324ee1f19"
+  },
+  {
+    "path": "Splunk_TA_nix/default/web.conf",
+    "sha256": "e469e328c8e94caae6059bb3675ac1578a5d7c14a7757b784c1cb988adca9572"
+  },
+  {
+    "path": "Splunk_TA_nix/LICENSES/Apache-2.0.txt",
+    "sha256": "d3910dee6fe9fe134856d76268fe82adb1ade1ecf51b3568b7da6b94894b88f3"
+  },
+  {
+    "path": "Splunk_TA_nix/LICENSES/LicenseRef-Splunk-8-2021.txt",
+    "sha256": "37906d637abbbeca35cfb2efcb658cabbc0208d101848372c1e55fbf9ba62e47"
+  },
+  {
+    "path": "Splunk_TA_nix/lookups/nix_da_update_status.csv",
+    "sha256": "a9a794b39377946e0dcb5f70c9c8ba6114fec1728512c9f39cfb0f3eca46159c"
+  },
+  {
+    "path": "Splunk_TA_nix/lookups/nix_da_version_ranges.csv",
+    "sha256": "992529c548d8273e073a988d089fbd5c7fa5c1ef47d51243e9da9dfb77eba6d2"
+  },
+  {
+    "path": "Splunk_TA_nix/lookups/nix_linux_audit_action_object_category.csv",
+    "sha256": "5838950fd3cade537dea91d1dcdcbd10532457fa7de07d397bfc699e56a19867"
+  },
+  {
+    "path": "Splunk_TA_nix/lookups/nix_linux_service_startmodes.csv",
+    "sha256": "dd669b358909f4d9be9d0aef9f4720e78a290e422a90ec3e3cdabe39ed9b8be2"
+  },
+  {
+    "path": "Splunk_TA_nix/lookups/nix_vendor_actions.csv",
+    "sha256": "f287b03905a705fed92dd4a1d1cf060c16b9521aba80b06494af8d5e8530fa97"
+  },
+  {
+    "path": "Splunk_TA_nix/metadata/default.meta",
+    "sha256": "6fa3057938996152cdfeddb46b20a1c079966ba87a56cf7c13c9d35f3caaf2e7"
+  },
+  {
+    "path": "Splunk_TA_nix/README/restmap.conf.spec",
+    "sha256": "db1641a66cc6703fb2aa4f8d26f4041091e7685843befee21ae01cc9735b75c3"
+  },
+  {
+    "path": "Splunk_TA_nix/README.txt",
+    "sha256": "229729a9533d76ddf7352d064d780cf7242104ad50785939dd42cdb53c979e3f"
+  },
+  {
+    "path": "Splunk_TA_nix/splunkbase.manifest",
+    "sha256": "f3f12f135a00dc96678813594b6324142a8cb44172c447e3a4340a05ff576cb4"
+  },
+  {
+    "path": "Splunk_TA_nix/static/appIcon.png",
+    "sha256": "6cb62d7fd2d90e69d66c3e4fbede9692f9d650176a7a9ec06edd4026f1de580a"
+  },
+  {
+    "path": "Splunk_TA_nix/static/appIcon_2x.png",
+    "sha256": "d7ad6f1263583f5b280b52be4f8806b0d22a4aa6e328a0209212697b6734570c"
+  },
+  {
+    "path": "Splunk_TA_nix/static/appIconAlt.png",
+    "sha256": "6cb62d7fd2d90e69d66c3e4fbede9692f9d650176a7a9ec06edd4026f1de580a"
+  },
+  {
+    "path": "Splunk_TA_nix/static/appIconAlt_2x.png",
+    "sha256": "d7ad6f1263583f5b280b52be4f8806b0d22a4aa6e328a0209212697b6734570c"
+  },
+  {
+    "path": "Splunk_TA_nix/static/appIconLg.png",
+    "sha256": "d7ad6f1263583f5b280b52be4f8806b0d22a4aa6e328a0209212697b6734570c"
+  },
+  {
+    "path": "Splunk_TA_nix/static/appIconLg_2x.png",
+    "sha256": "11ca7ef68587f5f1bacbbcb24b85924089724bcf02610b512f899fadac186f34"
+  },
+  {
+    "path": "Splunk_TA_nix/THIRDPARTY",
+    "sha256": "26d84aa347a3803c279d298fb36585f8c06a850b365090dff09229cd603a82d3"
+  },
+  {
+    "path": "Splunk_TA_nix/VERSION",
+    "sha256": "4e81e5c12d8f427bc89cc6eec5f5d9ad0b46e2547264f43f19ae7e052b54911f"
+  },
+  {
+    "path": "DA-ESS-ContentUpdate/default/analyticstories.conf",
+    "sha256": "92974a78523bc852a55342dddafa50bb603d9c01e60e76ea41bba9e711b17b52"
+  },
+  {
+    "path": "DA-ESS-ContentUpdate/default/app.conf",
+    "sha256": "583a92171943677553fae0b5f3f05c08109679d5904d15d98fe5deb53e2779f9"
+  },
+  {
+    "path": "DA-ESS-ContentUpdate/default/collections.conf",
+    "sha256": "0044a8ec105e5a4ace6eb03f7c439a4c069b95fe75cde69c21f3da02b23a4b11"
+  },
+  {
+    "path": "DA-ESS-ContentUpdate/default/content-version.conf",
+    "sha256": "00bae17e51f4fe52b2a1fa5af954f05821d577e506839a263cf4fa239fe409ff"
+  },
+  {
+    "path": "DA-ESS-ContentUpdate/default/data/ui/nav/default.xml",
+    "sha256": "44f8fa205c2b036c93d694ae44c482a1f5ad2a0a908cb1e6f046e60ea44f1598"
+  },
+  {
+    "path": "DA-ESS-ContentUpdate/default/data/ui/views/escu__applocker.xml",
+    "sha256": "b4c71a83cdfb4931f79b0354184caf382b749fda2ad169989c94f110fd821629"
+  },
+  {
+    "path": "DA-ESS-ContentUpdate/default/data/ui/views/escu__es_content_update_deprecation_assistant.xml",
+    "sha256": "912bd5728e291a44b7083db0f59e7cb751944ea57434030dcdf04ef3ecdbef09"
+  },
+  {
+    "path": "DA-ESS-ContentUpdate/default/data/ui/views/escu__nist_ai_rmf_control_coverage.xml",
+    "sha256": "89c6cbbc8ed052af2ff1d36080154a7ca99a3aea615f46ca58b95042ed54d0f9"
+  },
+  {
+    "path": "DA-ESS-ContentUpdate/default/data/ui/views/escu__rmm_software_tracking.xml",
+    "sha256": "940857db625d1a7e040424b6c6eff5943ad2ff6bb5af640fe283ff5a65c63cdd"
+  },
+  {
+    "path": "DA-ESS-ContentUpdate/default/data/ui/views/escu__threat_activity_by_snort_ids.xml",
+    "sha256": "ffde233030c27e7e5e4b672bbea388e1d40f51d297224c42a8ed73d743dc0300"
+  },
+  {
+    "path": "DA-ESS-ContentUpdate/default/data/ui/views/escu_summary.xml",
+    "sha256": "e34faa04f850b6da4bec7bf6e97ded56d6962c4da2671b4ae9d626fb278dccdf"
+  },
+  {
+    "path": "DA-ESS-ContentUpdate/default/data/ui/views/feedback.xml",
+    "sha256": "41b6a6d6c930e00467ecea6bdcb900b289f9cb8b6798b75f25dac25bdb9c991f"
+  },
+  {
+    "path": "DA-ESS-ContentUpdate/default/data/ui/views/landing.xml",
+    "sha256": "69ea5204f31f4ed5bd2f05ef6596355fed1cfde8f8056d0a4421c54e43be4d15"
+  },
+  {
+    "path": "DA-ESS-ContentUpdate/default/data/ui/views/onboarding.xml",
+    "sha256": "c6db559383f396c0ba0b44d31c1ebab40dc0528fbcb3f3e0d605282add49432a"
+  },
+  {
+    "path": "DA-ESS-ContentUpdate/default/distsearch.conf",
+    "sha256": "7ffcc6810bfe4fbdfd2a9663267db4e7d0eaca80b44cc8a2d71ce2b917a28f13"
+  },
+  {
+    "path": "DA-ESS-ContentUpdate/default/es_investigations.conf",
+    "sha256": "e73adfcee3af30ea247a1522a5f0e97dc7ea9e02c88ea70922a680808853d5c5"
+  },
+  {
+    "path": "DA-ESS-ContentUpdate/default/macros.conf",
+    "sha256": "40bcaca824280c8f189d0b623a5e0a936bac031e1c21dcc48f4250ed0e6783c8"
+  },
+  {
+    "path": "DA-ESS-ContentUpdate/default/savedsearches.conf",
+    "sha256": "172bc453b5b1a22bbc0db0bf97adf54bab5b5a1bac11072b08c8befc167333e0"
+  },
+  {
+    "path": "DA-ESS-ContentUpdate/default/server.conf",
+    "sha256": "41e78a4ad1d104cbaa034b06b5e8ecfbccff6f44a431797c9a6deaa43d4a5297"
+  },
+  {
+    "path": "DA-ESS-ContentUpdate/default/transforms.conf",
+    "sha256": "fa9d32a0b396a88aa0b69bf746892b2630c54d7355c4092f5c076c2bfea5fa78"
+  },
+  {
+    "path": "DA-ESS-ContentUpdate/default/workflow_actions.conf",
+    "sha256": "e73adfcee3af30ea247a1522a5f0e97dc7ea9e02c88ea70922a680808853d5c5"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/alert_actions.conf",
+    "sha256": "06a5ee9214fd6cc25095968cd41754d097b106c6abfa6197e95b5808c096077a"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/analyticstories.conf",
+    "sha256": "256efa64216a2abe7a50ee7c42e1116171ff7be3f299ec41836619f6e74c1e7b"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/app.conf",
+    "sha256": "706c624d7c06793b6230be323ef5bd489c62b7b4245877c60154008cddc4942e"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/app_permissions.conf",
+    "sha256": "fd5198de2a9f87844dd0a54aaa3b76cee6de5cf1955bb64827f02e031a483347"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/authorize.conf",
+    "sha256": "4d53f1c1171dceaf7ef73cc5c336e3d0e464e43827efd4a6a9dc608524bedbac"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/cloud_integrations.conf",
+    "sha256": "68a38e19d0b41d0278c307ba4b26dc0afec555bdc7ddfe03268bf9bde0a943f8"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/collections.conf",
+    "sha256": "d263b034165b05ff5965bae8d7cb5b6a2222663d2fd188ee457f1dcd26b9809a"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/commands.conf",
+    "sha256": "16d6dd350772b8e29944d131000a48a2feb47c3944293dad80f56d64756a7c98"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/export/es_glasstables/57d00b60b1715bdabd0f6e0f.json",
+    "sha256": "afc8578cd0682445a7f8040a35ae0a52b379d2cadad4c6a57301df9c86b5cf00"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/export/es_glasstables/57d00c60b1715bdabd0f6e16.json",
+    "sha256": "08bd3901888edbb872c92cda56f1110e9d83611f829fd4eba30680081d606c14"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/export/es_glasstables/5817897db1715b137a03a7df.json",
+    "sha256": "990076cbfc7190d3699a4722a4c07b3a5704e5f1919a047b635b815f15620e4b"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/export/es_glasstables/files/57cf1111b1715b04d90e6131.json",
+    "sha256": "e7e6b1536714600e545d57069a028df3125e20340fd9b7352f2a1a74ac51cf8e"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/export/es_glasstables/files/583dcaa6b1715b7bbb54ab56.json",
+    "sha256": "c51182b0ce2eb609b7e7964894ca016c425caa77e5d976fa0a24089bf91723dc"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/export/es_glasstables/files/583dcaa6b1715b7bbb54ab57.json",
+    "sha256": "ede6abd124f2b12e37b63ce42bb0af2127f3f508ad0f818a1ec27347d83e7b5b"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/export/es_glasstables/files/583dcaa6b1715b7bbb54ab58.json",
+    "sha256": "d383064928a60ef4d9a0a4b8baa79bbc12f8bd5674046bf40f490e091303948c"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/export/es_glasstables/files/583dcaa7b1715b7bbb54ab5a.json",
+    "sha256": "28db299afb393983dba2f73a28658d66960f079a0e9587cb2d7d3f15a7164645"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/export/es_glasstables/files/583dcaa7b1715b7bbb54ab5b.json",
+    "sha256": "28d86c432a40968e62431604c23b95b9e9c6293f20998b7bea5771f5c67b42f3"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/manager/ess_content_importer.xml",
+    "sha256": "61fa1b987a55efea3bbf960b267034b28944b4e946bf36cdb8ff078cf1bc18b2"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/nav/default.xml",
+    "sha256": "82c287b0b8ef0905e27a3803a036562f5ff5c196a2408b624792ea632a2523b9"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_alerts_dest.xml",
+    "sha256": "f5315c9e112c085f7158ebca688b2b0d3dc853063cdd2d9865760ed5476e519e"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_alerts_mitre_technique_id.xml",
+    "sha256": "7c5e1b95d6afda6375a5379a06e4c2323c05db5dd6e412978e68e716dc50978d"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_alerts_severity.xml",
+    "sha256": "a540a8ffe95eafe0fc40860114994be63265c388134f1af89ee1eb8983dfcf54"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_alerts_signature_id.xml",
+    "sha256": "dbd27ac91e34133b500a95f3ecf04d3a5a11234d822cc84a8d1cb7c38d72a57d"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_alerts_src.xml",
+    "sha256": "2a8b1d070d66b748f39fa0d0a9643757cad3fcda085ecb07b04d9aca684d8ae4"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_alerts_user.xml",
+    "sha256": "18d442f3b74b3d683336e9c974787596fed7b473a7d2c6d3d08a4ae2a04c5b29"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_authentication_dest.xml",
+    "sha256": "1e322901a2ebf4afafb4fd5ba5b828dfed555adbebed730a85ca81f75abf4404"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_authentication_privilege_escalation.xml",
+    "sha256": "dba13e49b1129df8599fb9ba88e2344218a811bed8843aafde938e0b7cc6732c"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_authentication_src.xml",
+    "sha256": "91f7ccb516947434b859a368ac37aeae6deff230b406151ce2e50dbdd42fd4fc"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_authentication_user_agent.xml",
+    "sha256": "4efc427f066d90134d712535df0ee75be37795c1e7268d6d8fb9bbf9a2bebad1"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_authentication_user_id.xml",
+    "sha256": "d8b0cfd5182f9d50d7db7efede35f18012d4e88761255357f7ecc780b8129ac1"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_authentication_user_role.xml",
+    "sha256": "5abdd42204ef2eae6ca1776ebd5fe6b1fbe4179fc536b93fb4c9678112939f3e"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_authentication_vendor_account.xml",
+    "sha256": "82d2feefe5f2d272d96ca31329ec30e5cac3bbe25f502ecb9469728a6f42b732"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_change_dest.xml",
+    "sha256": "e2d940249fc64aab9a1c8db4e73b4fa490cc61918c5c48fba3c06738d9436cb3"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_change_object_id.xml",
+    "sha256": "f90c83614fb6b9e3075bcb8421b8485196d445044d511374d8c8492f1ceeba0b"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_change_src.xml",
+    "sha256": "20eb70f39f66ca867e48cb92672d82b3fd24d095af7ff1e70462117574d49e01"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_change_user.xml",
+    "sha256": "2bb037e9ee1bf865a1f60320b480e0ba7525265a4baf5ab40107f3dd5f22c68d"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_context_computer_inventory.xml",
+    "sha256": "2e5a74164d645051adaf8696ad07ec28fe552023e18566f57c872b44104ae699"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_context_ids_alerts.xml",
+    "sha256": "9b73744e57093bcdb774794f17b4f94f49b777ebbfa13e7e280ffa9c89cbe8be"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_context_notable_events.xml",
+    "sha256": "6965aeec807d27959cf04d94b580f8f1bf08b93a99cb8d72e55075f062305b0a"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_context_os_updates.xml",
+    "sha256": "fdc8a8ebebaafd91bf619973e8667fbe894321ddacda45114602cc3a095e4a03"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_context_risk_score.xml",
+    "sha256": "f91a0b60fa512cac6faef9cba65aa721a10a1bcda2cfda50133c47914ad3c022"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_context_vulnerabilities.xml",
+    "sha256": "40fc9bb60ea468418aba5360be0a8a33e59e6aa03bc34f8f9b6265fca25ddd6e"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_endpoint_authentication.xml",
+    "sha256": "3fb42a9c9831ccd3685e8bdc6bab30cda4204ec5cc748ef706b92d7b59431d71"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_endpoint_filesystem.xml",
+    "sha256": "d75d52a8fe0aaa47c9901c6020d6be2baa63a71720139abc1eb6a6ab3948dee2"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_endpoint_ports.xml",
+    "sha256": "047e942861645b043629f05a5baa379359590fdce78b54fc3c11d9f510a3df55"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_endpoint_processes.xml",
+    "sha256": "c608fe5f257a42e5a23feeea1e8eaf6d5b37107d0b92252012801ba5a3b8f2fe"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_endpoint_registry.xml",
+    "sha256": "e3dd28ca8d242bfa649b6e1a8f3e87f647c4c50da6b2b061d5fa2765e8ed7d22"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_endpoint_services.xml",
+    "sha256": "9df23e27584f04a44950778937cf7e8ec69aee499ee800c27f473c9cac73befb"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_endpoint_user.xml",
+    "sha256": "5a56fd0ff3d807d245211d11877acd74e66e7c603828dca4ce1fd8a0522163ec"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_network_certificates.xml",
+    "sha256": "652d39d0f3ee9898a33b1e4cc5bad50e2e003e05dd1e25d12fb2ba4a7e56162d"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_network_email.xml",
+    "sha256": "aeb395f9ac3c79017d493a28f410627a6521caad563484efe8e629553dc87d48"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_network_resolution.xml",
+    "sha256": "7b0ec2851e7b8867878c2aee3b2e1520e2153e46aba1f8d727265f91b86c3505"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_network_sessions.xml",
+    "sha256": "af50245b27a19bac5990285525c974b069c9d163959bc282995199d70f229c12"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_network_traffic.xml",
+    "sha256": "3bd4638f8c62a64f3acaf1b2b09a6217b7d9b36270862c666ba15650bb22cb80"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_network_traffic_dest.xml",
+    "sha256": "b78a7bba0c754ae38f429c551fa59fc7425c961e177c0f7328a35027c17fd0a9"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_network_traffic_dvc.xml",
+    "sha256": "54e1b25fff01c7b4e21e510db67ecd2fe574cfe39824806b90e96ed4530c49a3"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_network_traffic_src.xml",
+    "sha256": "14f5fc315411e95819b9ea2ce67c6d2c52eaa272b0db2491d19bf5cf3644c69f"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_network_web.xml",
+    "sha256": "6aebd161c915b9ca5f603fda21f8135771bb9148dd6c75a58f1d9d74d8288316"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_risk_annotation.xml",
+    "sha256": "ffa55bdfabb51f41668db603d5b26af1854436ebfadd646a2c8f747096844e0d"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_risk_mitre_tactic.xml",
+    "sha256": "5c48355ffb9c21f0ff88c43b9954c5e7d4e1e13fd7b569f952df8dc52dd7775c"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/panels/workbench_risk_recent_modifiers.xml",
+    "sha256": "49f495e9e3c31f5d90a56ae692ae9e2892436acfceb0b11bf738ca97cb728a9c"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/access_analyzer.xml",
+    "sha256": "da56d7882191e822058a9cb47c2dfbeec2352cd3f52833de77f918e08f480bee"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/access_analyzer_data.xml",
+    "sha256": "60392da65f7fc969e37d776cb6d1ac70660beaa4a185e16cfa0bd5f426c8f5fb"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/correlation_search_edit.xml",
+    "sha256": "d7589b75cdd53aa228a3bd3e3ae76fe5ddb56a8eeac103e3a6a5e31a24070d13"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/create_capture.xml",
+    "sha256": "724df08cff6955f9f22219c88e1deb974a40982f34b5ec4cb0dcee42fb2f8287"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_analytic_story_details.xml",
+    "sha256": "1e74a2efade5b8cf7abbaf52f0002c4fe0920f76ff0022531cc81ab803053f21"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_analytic_story_edit.xml",
+    "sha256": "d08a5f9162cd39a08cc1c61162437ee3d061b7bc70c0358a762a3bfb78b4a37d"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_confighealth.xml",
+    "sha256": "da9bc2974c878e7454d95fcf969eb64128e0d8085a19872cecd78fbd3d7154b3"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_confighealth_data.xml",
+    "sha256": "7ffae6b9da3bbd2717ccdc69cd6dc136de19a97ef90b56ed1798684a0588ed10"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_configuration.xml",
+    "sha256": "32e9741ee4aee38920b413ec5c9e9722016581c5c989c0b131210aacc0109a76"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_content_management.xml",
+    "sha256": "35b1288131509aa60380e6b85c650e3c67d28dfc14267877912814f36af826ac"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_correlation_search_new.xml",
+    "sha256": "d7589b75cdd53aa228a3bd3e3ae76fe5ddb56a8eeac103e3a6a5e31a24070d13"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_credential_management_list.xml",
+    "sha256": "cf026b69edcc23d0eda5747837f3424e98d5e11aef19e548e9847c55e15084cc"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_entity_management.xml",
+    "sha256": "d97fc4288c072112e4716397d013dcb88b5e86923b4c368c0e25109c3f1c8275"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_executive_summary.xml",
+    "sha256": "6a687c240822266a3befb46000838194c4f0fddbb89ad0f34e4ec06cd2ce8e97"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_executive_summary_data.xml",
+    "sha256": "ff8bc797ad059c80381a06e1cd82c270ad2d4a8716274dfcd6982e1a61341252"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_general_settings.xml",
+    "sha256": "94a3e46f6a013cf288ab0bd44ba5a2a365a8fbd1a07393af2d3584aa063b8e48"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_geo.xml",
+    "sha256": "3f9f0f0c68cbb769fea5499ef2d61f4e754beb5d443d3beb495d6b6fb92e2531"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_geo_data.xml",
+    "sha256": "68e7c9690b28ef5a2df0a5efcc89b60890623fea5cdbdfabcb27aaecb89e6c9e"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_home.xml",
+    "sha256": "e2bc26f1245bdcd196e44dcc903f00846a0c1faf1eb07aa4286109b90b29ab63"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_incident_review_configuration.xml",
+    "sha256": "f283861f1f934eb27fa4229fe9085a14456257f07e323ed1eaad1c929979d65d"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_investigation.xml",
+    "sha256": "c559c6399d2e4dccda5ea2f7be096be2f34997eb384ba8f6d52dd26cf6631623"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_investigation_list.xml",
+    "sha256": "8c12c5aeb364354f93e2263a3f5f4c02bdc5e0e7a749ef96fd57dd756cb55cab"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_investigation_overview.xml",
+    "sha256": "e70b08bfdf684246d553dcc18c7d4fd043281d7e5f73e7f4a64b52dc034c9ec0"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_investigation_overview_data.xml",
+    "sha256": "e70b08bfdf684246d553dcc18c7d4fd043281d7e5f73e7f4a64b52dc034c9ec0"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_key_indicator_edit.xml",
+    "sha256": "e2d6441bb0d58a6bdfcecc24fbf9e4765be379d4d68776be4622c190840916e2"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_key_indicator_new.xml",
+    "sha256": "0736f1e7098685b4f7e1cda302284318852b7484ec1aa3cd3c083866f1ed1005"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_lookups_edit.xml",
+    "sha256": "67266a45ddb35637264c8092d43f68f0ba36b3a87604829959a188bf085cec8e"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_lookups_list.xml",
+    "sha256": "ee6eadb77319302ee6ea547ac7d0da5077aabafb39b9f9e34e661b0d0436a3a3"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_modular_action_center.xml",
+    "sha256": "7cdc178fe3eee10006e39ab2d98a34fa40ab595fa88379b48c0706b25498a439"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_modular_action_center_data.xml",
+    "sha256": "b61b5ced37da84b631f9d8c40573dcd7f436663bc3e23d0269d58c142d0c4a40"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_navigation_edit.xml",
+    "sha256": "2eba9d9fe307b7a5db5e5099c83d0187c6126005ba0b7eed5fa95c90548282f9"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_notable_event_create.xml",
+    "sha256": "22963ebca7661f62275a722656f9d6b24f17b3c133d2c154964fffe42cbacc8f"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_notable_status_list.xml",
+    "sha256": "f4f42f70b34f1598f763a1727710fc93d6bdeb03c9a3f56321796144bc6cf974"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_notable_suppression_list.xml",
+    "sha256": "60a41d62de09cad4cf02c9aa4e200ddcbfd90c1fed0f1d24c56893de7e2a6d10"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_permissions.xml",
+    "sha256": "4fc8a39e450675510f0e59a0ac8c49ffae4e5070f76331c0b15e3ca7eb0bd299"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_search_driven_lookup_editor.xml",
+    "sha256": "81cc16189d7fecf56d21e5ccddd8b1e952a25bc5989d043a0a527c430487a89f"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_security_posture.xml",
+    "sha256": "4dfd617c61939c38e6cbb19675b19e58cbcffe32e8174231a81a5965070be61f"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_security_posture_data.xml",
+    "sha256": "5badceda9b41c8a8538dc51d6560de19c6c6425d1c6adf0a879fb54e57fca203"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_sequence_edit.xml",
+    "sha256": "7d26c4307d638a3dbfa0a03d9a4479c225d0dc372871cc9f7b93602def3c3a95"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_sequence_list.xml",
+    "sha256": "e70b08bfdf684246d553dcc18c7d4fd043281d7e5f73e7f4a64b52dc034c9ec0"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_setup.xml",
+    "sha256": "4e152f0ef7b0c5a1cd361f5c1d1ae3983ed45439e631d1406399dd720ff5152b"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_soc_operations.xml",
+    "sha256": "13ee6df29761fe8489ab8d0212f03d47652730b649f931291ba20a34390ebc52"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_soc_operations_data.xml",
+    "sha256": "0fb0deac1ecacd27763566c6f0bf0a0e4a8132143414eb31db51cd111f64bfe5"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_swimlane_edit.xml",
+    "sha256": "9ab89e2d5d64ba3ee9a3235a6052b2e5b2e28d3e8e7f10049641d9bd2223fde0"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_swimlane_new.xml",
+    "sha256": "e4c78cdf4e94277b0f74cfc973c1d9bdebb56ddfb1a5c24b8e3dfec142c40993"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_threat_intelligence_management.xml",
+    "sha256": "12f39168a84d2cbdd10883d696f63266f3a5e92171a1dbb3ac1d81685d13c148"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_use_case_library.xml",
+    "sha256": "2bd2d924a158f174de3fc0d4a8833c0723133861fedbe436494808f2d0f59ea2"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_view_auditing.xml",
+    "sha256": "c6b29a868c2b5035dd781197559f0c8a9af7de4d1adb20041adbb7e6fe005bed"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_view_auditing_data.xml",
+    "sha256": "1be70ad2a0ddf307bcf62caa3d6df0218a54eabe9408b009d1b8520b3d795b59"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/ess_workbench_panel.xml",
+    "sha256": "6f19b448e5234facba66d3ce831014669cc629e68d1a79cd6b143286a8034000"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/finding_based_detection.xml",
+    "sha256": "8218f7987cb22c8e95d75ecb9ff409ea9fa3ea584a8215e5836e1e9797e8792d"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/iam.xml",
+    "sha256": "b98ceea700b4b8e55fcf3575837fa920e4a56d7ea283bd318cd6559ba5491ac7"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/iam_data.xml",
+    "sha256": "48d16148359dcfc818f1d11acd85bb643396c1b65196df976903b4b0b100c4a0"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/kasper_attacks.xml",
+    "sha256": "64dc4afd1655ac276dd5ca99de6ddbad9e8f4c1e52660d0f9c433fd174e545cf"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/microsoft365.xml",
+    "sha256": "6e66ce95148395ccaaf2e97098e8573a18967c0dbd7bf9491c910a16a450ae21"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/microsoft365_data.xml",
+    "sha256": "f3c6bd67ed77c8a59fe2a8f541d412a75545a619b23243429c835c197e6a1a7f"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/network_acls.xml",
+    "sha256": "387bca5277fde8f4162e79d0853490dec9787458e53115bfd57ee03c41c25f42"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/network_acls_data.xml",
+    "sha256": "7fd4096502fd071c3c7a4a3813b5cd8201f97d675ccdb76cc1da159fe0277a3b"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/risk_factor_editor.xml",
+    "sha256": "4a53ea0807d9e44e6421cad0a556704e0a9927cb6c88ed8d9619bf0a6d5d07d5"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/security_groups.xml",
+    "sha256": "3c0a26af61f41e323a6d03f333f5d50ef9ead8cd2c673eced4819da4c84a01f8"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/security_groups_data.xml",
+    "sha256": "776ce08f9885a268dd9eaeb6814ad69dd05aef2da33de45efaaeeffe91d12ae9"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/data/ui/views/user_lifecycle_tracking.xml",
+    "sha256": "f081adff4a2506eff8e1513befac28f82503cc5fadc06a3f031d0b01a1ff952e"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/distsearch.conf",
+    "sha256": "5ac7b48ec692695bb824f15b243d5b66f568ef51df0c679913219af9f2159828"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/entitlement_flags.conf",
+    "sha256": "b4caea55d29522831b1537d198f4b17bd356c6a8a403b4de2b3c9ba6a23fd5d0"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/es_investigations.conf",
+    "sha256": "a0e4c3e35f083ef46e973df8c3d0c34b87995b8264f053a2170d58264fd1aad1"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/ess_setup.conf",
+    "sha256": "a64ce606a7b8c1bd1c5eed0ce27b8120c6615015d067fb0411f77bc67f1aa7d8"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/eventtypes.conf",
+    "sha256": "116d80276608b98974208124404c9e93e6f358fe3c6e06b44d7237247752d316"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/feature_flags.conf",
+    "sha256": "ad6fdad1d087b74039c71a121e5af9d9a054c0381b50275fb07bb2f6cb91c081"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/federated_analytics.conf",
+    "sha256": "ed3d3577cea06a98acf4dcd550afe30614d855bace2c82094d224423be7e479e"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/indexes.conf",
+    "sha256": "af66c462bc28937a0cb968e95bb6a2f2d6fda8e04282925a9aa34fb8ab262d25"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/inputs.conf",
+    "sha256": "c930f2b74da2bd058719e9ac260f5eade19ac33782d0662d09f1fd3e3467a4c8"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/license_info.conf",
+    "sha256": "f839898a655e9256d99965b8f4862a8ac09b9848d25b5ceda2b297f8b302927a"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/limits.conf",
+    "sha256": "f24e26b7d48005b6dfb1c5c495b24e3230730fbd6b7da78a30700747d2632f98"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/macros.conf",
+    "sha256": "7fe20649afd91d2edc42128e698e2abdf06819a0bc90381504fe2ef123e9ee55"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/managed_configurations.conf",
+    "sha256": "cfe4ef293ead5b4ec2fe5be4f3d4efd9e438e7783f8a52fab423ccc90caf869a"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/messages.conf",
+    "sha256": "e8031b3b3ae00c3c9b942a0a2186322579a6f579b477a74f8ae936db9fc96d4c"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/props.conf",
+    "sha256": "016b5256c17c99ce39f215b4201380cfe2a89af46bf3cd8e38ded430322fb5d5"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/restmap.conf",
+    "sha256": "0c56a7d5eb937499acda61ba20aa38d094c6144d04b38c0a45da5fb4646bc85e"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/reviewstatuses.conf",
+    "sha256": "106d4d122bf377bab77807dd87bb861c1152e1696d926b3444bc062760957ccd"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/savedsearches.conf",
+    "sha256": "580e3bd52163b98163c671653fe775d2f50967ad576553f11638a174218dfcdb"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/searchbnf.conf",
+    "sha256": "1007cd3905a059e165dd31295a502605e490b863b0b1cd5a0a8e7caf823fcf30"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/sequence_templates.conf",
+    "sha256": "7a7fd974d32212241f0ae8f13f29e2aa567ca2fc3cfce7abdcd5cee48a72d98e"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/server.conf",
+    "sha256": "853c9e4024bd31d33c0e862f7efcfa9652f3807ff3ee227eea82f0e5e4a6ceb6"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/transforms.conf",
+    "sha256": "5fd6dd2bcee98536137c14263af39d6ec8fa69aa24294412669357820c0202bc"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/udf_dashboard_mapping.conf",
+    "sha256": "5d1e10db1936a75fda733cfc8eae286de2fbd9bc0c5f35ee577298ae373f0740"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/ui-tour.conf",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/user-prefs.conf",
+    "sha256": "2d461bb92a90ea5a2bf8118c0bcbd8760f49406db16fb0333c772afa5fe97b78"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/web.conf",
+    "sha256": "24a410c45fd4a43d3f976aaf7596fd204b7cde480e47892280d6cf5cbca9ee80"
+  },
+  {
+    "path": "SplunkEnterpriseSecuritySuite/default/workflow_actions.conf",
+    "sha256": "69543dd792553301b3b9cb489d89ef0f1160985e067296856284ce7d5a1a31dc"
+  }
+]

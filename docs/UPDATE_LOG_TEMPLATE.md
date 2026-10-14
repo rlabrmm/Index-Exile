@@ -1,0 +1,21 @@
+# Update review
+
+- Date:
+- Reviewer:
+- Previous accepted commit/build:
+- Supplied applications:
+- Application versions and source hashes:
+- Optional sample/mapping evidence supplied:
+- Offline review report:
+- Changed application files:
+- Added, changed, or removed rules:
+- Macro/configuration changes:
+- New type or field proposals:
+- Prior schema retained:
+- Candidate dispositions:
+- Human approvals and evidence references:
+- Local checks and results:
+- Live checks performed or unverified:
+- Deployment owner and planned window:
+- Rollback build/commit:
+- Remaining questions:

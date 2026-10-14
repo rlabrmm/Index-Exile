@@ -1,0 +1,5 @@
+| tstats summariesonly=false allow_old_summaries=false count min(_time) as firstTime max(_time) as lastTime FROM datamodel=Linux_Auditd.Auditd WHERE (index=linux) AND (Auditd.type=ADD_USER) BY Auditd.exe Auditd.pid Auditd.host Auditd.res Auditd.type
+| rename Auditd.exe AS exe Auditd.pid AS pid Auditd.host AS dest Auditd.res AS res Auditd.type AS type
+| `security_content_ctime(firstTime)`
+| `security_content_ctime(lastTime)`
+| `linux_auditd_add_user_account_type_filter`

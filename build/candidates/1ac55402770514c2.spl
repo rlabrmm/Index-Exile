@@ -1,0 +1,5 @@
+| tstats summariesonly=false allow_old_summaries=false count min(_time) as firstTime max(_time) as lastTime FROM datamodel=Linux_Auditd.Auditd WHERE (index=linux) AND (Auditd.type=SYSCALL Auditd.comm IN ("at", "atd") OR Auditd.exe IN ("/usr/bin/at","/usr/bin/atd") AND NOT (Auditd.uid IN ("daemon"))) BY Auditd.comm Auditd.exe Auditd.syscall Auditd.uid Auditd.ppid Auditd.pid Auditd.host
+| rename Auditd.comm AS comm Auditd.exe AS exe Auditd.syscall AS syscall Auditd.uid AS uid Auditd.ppid AS ppid Auditd.pid AS pid Auditd.host AS dest
+| `security_content_ctime(firstTime)`
+| `security_content_ctime(lastTime)`
+| `linux_auditd_at_application_execution_filter`

@@ -1,0 +1,5 @@
+| tstats summariesonly=false allow_old_summaries=false count min(_time) as firstTime max(_time) as lastTime FROM datamodel=Linux_Auditd.Auditd WHERE (index=linux) AND (Auditd.execve_command IN ("*find*", "*grep*") AND Auditd.execve_command IN ("*.pem*", "*.cer*", "*.crt*", "*.pgp*", "*.key*", "*.gpg*", "*.ppk*", "*.p12*", "*.pfx*", "*.p7b*")) BY Auditd.argc Auditd.execve_command Auditd.host
+| rename Auditd.argc AS argc Auditd.execve_command AS execve_command Auditd.host AS dest
+| `security_content_ctime(firstTime)`
+| `security_content_ctime(lastTime)`
+| `linux_auditd_private_keys_and_certificate_enumeration_filter`
